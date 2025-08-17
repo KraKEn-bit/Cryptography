@@ -11,4 +11,4 @@ The codes will be created in such a way that even if a 3rd person named Eve trie
 But then a major breakthrough was made after 800 years by the acquiring the method called **FREQUENCY ANALYSIS** . 
 
 
-## ** What is a Frequency Analysis? **
+## **What is a Frequency Analysis?**
