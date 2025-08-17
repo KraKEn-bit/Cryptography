@@ -197,38 +197,32 @@ An elctro mechanical rotor Cipher machine used mainly by the German Military to 
 
 - #### **Keyboard input:**
 
-  1)You press a letter (say A) on the keyboard.
-
-  2)Electricity flows into the wiring system.
+  1) You press a letter (say A) on the keyboard.
+  2) Electricity flows into the wiring system.
 
 - #### **Rotors (the brain of Enigma):**
 
-  1)Enigma had 3–5 rotors, each containing a scrambled alphabet wired internally.
-
-  2)Each rotor maps one letter to another, like a substitution cipher.
-
-  3)Every time you press a key, the rightmost rotor rotates by 1 step (like an odometer), changing the mapping for the next letter.
-
-  4)This creates a polyalphabetic substitution cipher (different encryption for the same letter each time).
+  1) Enigma had 3–5 rotors, each containing a scrambled alphabet wired internally.
+  2) Each rotor maps one letter to another, like a substitution cipher.
+  3) Every time you press a key, the rightmost rotor rotates by 1 step (like an odometer), changing the mapping for the next letter.
+  4) This creates a polyalphabetic substitution cipher (different encryption for the same letter each time).
 
 - #### **Reflector:**
 
-  1)After passing through all rotors, the current hits a reflector.
-
-  2)The reflector sends the signal back through the rotors in reverse but along a different path.
-
-  3)This ensures encryption is symmetrical: the same settings encrypt and decrypt.
+  1) After passing through all rotors, the current hits a reflector.
+  2) The reflector sends the signal back through the rotors in reverse but along a different path.
+  3) This ensures encryption is symmetrical: the same settings encrypt and decrypt.
 
 - #### **Lampboard output:**
 
 Finally, a lamp lights up showing the encrypted letter (e.g., pressing A might give G).
 
 - **Plugboard (Steckerbrett):**
-- 
+  
 Before and after the rotors, letters could be swapped via plugboard cables.
 
 This added an extra layer of complexity.
 
 **The Enigma Machine could be set up in so many ways before starting to encrypt. Each possible setup = 1 key.**
 
-
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Enigma%20Mchine.jpeg?raw=true)
