@@ -496,7 +496,7 @@ He knew they weren’t truly random, but they were good enough for practical use
 
 
 
-**Let's Face a question**
+**Let's Face some questions:**
 
 `What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?`
 
@@ -580,3 +580,6 @@ There's an Interesting catch for Pseudo Random numbers.
   1) True randomness explores all possibilities.
   2) Pseudo-randomness is constrained to the patterns that the algorithm allows.
   3) Even if it “looks random,” the space of outcomes is a subset of all possible sequences.
+
+
+---
