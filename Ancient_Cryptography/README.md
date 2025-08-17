@@ -166,5 +166,16 @@ Here's a simple image to understand the frequency distributions of the letters i
   1) It can only be use if you can meet the other person and translate the pad to them secretly.
   2) It is actually difficult to generate large quantities of truly random Numbers.
   3) You can only use the OTP key only **ONCE**
+     
 ---
 
+**Let's Face a Question**
+
+`Does truly Random numbers exist?`
+
+Ans: It's impossible but we can get closer to it in reality. We derive "random" numbers through algorithms. In order to make it more random, we pick a seed for the Algorithm such as **Stock Price** at a given time on a given day in the future so that programmers don't know what it is and then the algorithm acts on that seed and creates random numbers. That's the most random we can get.
+
+
+`Note to be Noted:`
+
+True Randomness requires that each flip be independent of any previous flips of a coin. A computer can be programmed to diregard any information on its previous 'Flip' Choices for the next 'Flip' whereas a Human can't help but allow the memory of the previous Flips to influence the next coice. A human will feel that any repition of a certain result (Ex: 4 heads in a row) seems non-random and will modifyy their next choice accordingly.
