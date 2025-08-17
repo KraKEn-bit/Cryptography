@@ -72,6 +72,11 @@ Encrypting the message **"LOVE"** using the key or master keyword **"SLIP"**.
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
 
 
+Here's a simple program to demonstrate the Frequency Fingerprints:
+
+[Frequency Fingerprint](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/pi/frequency-fingerprint-exploration)
+
+
 **Let's Face a Question**
 
 `Any Time there's a Differential in Letter frequencies; a leak of information occurs. These are caused by repeatation of the encrypted message. What does it mean?`
