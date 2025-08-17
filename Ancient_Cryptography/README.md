@@ -486,6 +486,11 @@ Here's a simple program in Python to demonstrate how the Algorithm is implemente
 
 [PRNG_CODE](https://github.com/KraKEn-bit/Cryptography/blob/main/Ancient_Cryptography/PRNG_Implementation.py)
 
+
+But everything has its own cons. For example: PRNGs are not suitable for cryptographic purposes unless they’re cryptographically secure (CSPRNG), and mention why (predictability if seed/algorithm is known).
+
+
+
 **Let's dive into the history for Pseudo Number genrator. Why it was made in the first place?**
 
 Von Neumann created pseudo-random numbers in the 1940s, during the early days of computers, mainly for Monte Carlo simulations (used in physics, nuclear research, and wartime projects like the Manhattan Project). Computers were deterministic, so they couldn’t generate true randomness.
