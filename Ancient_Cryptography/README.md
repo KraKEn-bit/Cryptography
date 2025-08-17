@@ -436,3 +436,5 @@ Each measurement is slightly different due to the inherent randomness of the sou
   where xi is the digitized measurement at time ti. 
 
 Smoothing '/' interpolation can turn discrete samples into a continuous random function if needed.
+
+---
