@@ -35,3 +35,6 @@ Here,
 
 So,
 **Frequency Analysis** is a technique used in cryptography to **break classical ciphers** by studying the frequency of letters or groups of letters in a ciphertext.
+
+Here's a small yet clear Explanations of the above contexts : 
+[Watch this video on Caeser Cipher and Frequency Analysis](https://youtu.be/sMOZf4GN3oc?si=gl5V0I-1-EtaizGY)
