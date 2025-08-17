@@ -36,6 +36,18 @@ Here,
 So,
 **Frequency Analysis** is a technique used in cryptography to **break classical ciphers** by studying the frequency of letters or groups of letters in a ciphertext.
 
-Here's a small yet clear Explanations of the above contexts : 
+**Here's a small yet clear Explanations of the above contexts :** 
 
 [Watch this video on Caeser Cipher and Frequency Analysis](https://youtu.be/sMOZf4GN3oc?si=gl5V0I-1-EtaizGY)
+
+
+For Example:
+
+| Plaintext             | L | O | V | E |
+| Equivalent numbers    |12 |15 |20 | 5 |
+| Key/Master word       | S | L | I | P |
+| Equivalent numbers    |19 |12 | 9 | 14|
+| Adding curr+previous  |31 |27 |29 | 19|
+| Ciphertext            | E | A | C | S |
+
+So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
