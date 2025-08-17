@@ -24,9 +24,13 @@ For example:  In English:
 
 For example:
 Let's assume a word : 'WKKJ'
+
 Here,
+
 -frequency of W is 1.
+
 -frequency of K is 2.
+
 -frequency of J is 1.
 
 So,
