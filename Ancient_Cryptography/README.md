@@ -11,7 +11,7 @@ The codes will be created in such a way that even if a 3rd person named Eve trie
 But then a major breakthrough was made after 800 years by the acquiring of the method called **FREQUENCY ANALYSIS** . 
 
 
-
+---
 ## **What is 'Frequency Analysis' ?**
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Frequency_of_Letters.png?raw=true)
@@ -44,8 +44,7 @@ So,
 
 Let's dive into **Polyalphabetic Cipher** !
 
-
-
+---
 # **POLYALPHABETIC CIPHER:**
 
 A **Polyalphabetic Cipher** is a type of substitution cipher in which **more than one alphabet is used** to encrypt the message. This makes it **much harder to break** using frequency analysis compared to monoalphabetic ciphers like Caesar Cipher.
@@ -58,7 +57,6 @@ A **Polyalphabetic Cipher** is a type of substitution cipher in which **more tha
 For example:
 Encrypting the message **"LOVE"** using the key or master keyword **"SLIP"**.
 
----
 Let's assume (A=1,B=2,...Z=26)
 
 
@@ -69,15 +67,13 @@ Let's assume (A=1,B=2,...Z=26)
 | 3    | V         | 21               | I               | 8          | 29 → 3        | D          |
 | 4    | E         | 4                | P               | 15         | 19            | T          |
 
----
 
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
 
+---
 ## **Frequency Fingerprint**
 
 **Frequency Fingerprinting** is a method used to **identify the language or probable plaintext** by analyzing the **frequency patterns of letters or symbols** in a ciphertext.
-
----
 
 ### How it Works
 
