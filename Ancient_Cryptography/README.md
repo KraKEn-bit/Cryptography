@@ -487,19 +487,17 @@ Formula: Xn+1 = (a*Xn + C) mod m
 **Let's dive into the history for Pseudo Number genrator. Why it was made in the first place?**
 
 Von Neumann created pseudo-random numbers in the 1940s, during the early days of computers, mainly for Monte Carlo simulations (used in physics, nuclear research, and wartime projects like the Manhattan Project). Computers were deterministic, so they couldn’t generate true randomness.
-
 He devised the middle-square method to give computers a way to produce “random-looking” numbers for simulations.
 
 Von Neumann famously said:
-
 “Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin.”
-
 He knew they weren’t truly random, but they were good enough for practical use at the time.
 
+---
 
 **Let's Face a question**
 
-`What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?**`
+`What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?`
 
 
 | Feature            | Random Numbers (True Random)            | Pseudo-Random Numbers (PRNG)               |
