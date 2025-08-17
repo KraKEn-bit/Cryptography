@@ -295,6 +295,8 @@ Let's explain this with its properties:
   [How Enigma Machine worked and how it was so influencial](https://youtu.be/-1ZFVwMXSXY?si=IR1wRV5XG3ggNwBe)
 
 
+
+
 `What was meant by 'KEY' for Enigma Machine?`
 
 Ans:
@@ -316,3 +318,56 @@ If I set my machine to today’s key and type a message, it comes out scrambled.
 If you set your machine to the same key, and type the scrambled message, you get the original back.
 
 -> So in Enigma’s context, “keys” = the secret daily machine settings.
+
+---
+
+## **CRACKING ENIGMA:**
+
+The Allies (notably Alan Turing at Bletchley Park) developed mathematical shortcuts and electromechanical "Bombes" to test rotor settings quickly.Exploiting operator mistakes (like repeated message keys) and captured Enigma machines also helped.
+
+Breaking Enigma was a turning point in WWII, shortening the war by ~2 years.
+
+`What were 'BOMBES' ?`
+
+Ans:
+
+The Bombe was an electromechanical machine designed by Alan Turing, Gordon Welchman, and their team at Bletchley Park (UK). Its purpose was to find the daily Enigma key settings (rotors, positions, plugboard) by testing thousands of possibilities very quickly.
+
+### **How did they work? **
+
+Ans:
+
+By using the known plaintext (cribs). Allies often guessed parts of German messages (like “WETTER” = "weather" or “HEILHITLER”).These guesses (cribs) gave a starting point.
+
+- #### **Logical deductions:**
+
+  The Bombe wired together multiple Enigma machines inside, simulating how they scrambled letters.It used the guessed plaintext and ciphertext to rule out impossible rotor settings.
+
+- #### **Process:**
+
+  The Bombe didn’t directly decrypt messages.Instead, it rapidly eliminated wrong keys, narrowing millions of possibilities down to a handful.
+
+  Human cryptanalysts then tested the remaining candidates on real Enigma machines.
+
+- #### **Speed advantage:**
+
+  A manual check could take weeks/months.A Bombe could cut it down to hours.
+
+  By 1944, Bletchley Park had over 200 Bombes running nonstop.
+
+Bombes allowed the Allies to read German military communications in near real-time.
+
+This intelligence, called Ultra, helped in:
+
+  1) routing convoys safely across the Atlantic,
+  2) anticipating attacks,
+  3)and even planning D-Day.
+
+Historians believe breaking Enigma shortened WWII by ~2 years.
+
+**The BOMBES didn’t “break” Enigma directly; it was a shortcut machine that searched through the astronomical key space (≈10²³) using logic and known patterns.**
+
+Here's an image of the BOMBE that was used to Decrypt the message transfarred through ENIGMA:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/BOMBES.png?raw=true)
+
