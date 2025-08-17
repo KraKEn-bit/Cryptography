@@ -71,6 +71,21 @@ Encrypting the message **"LOVE"** using the key or master keyword **"SLIP"**.
 
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
 
+## **Frequency Fingerprint**
+
+**Frequency Fingerprinting** is a method used to **identify the language or probable plaintext** by analyzing the **frequency patterns of letters or symbols** in a ciphertext.
+
+---
+
+## How it Works
+
+1. Each language has a **distinct frequency distribution** of letters.  
+   - For example, in English: E > T > A > O > I > N > …  
+2. Count the occurrences of each letter in the ciphertext.  
+3. Compare the distribution with known **language frequency patterns**.  
+4. The **closest match** helps identify the language or plaintext characteristics.  
+
+---
 
 Here's a simple program to demonstrate the Frequency Fingerprints:
 
