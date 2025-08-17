@@ -223,6 +223,59 @@ Before and after the rotors, letters could be swapped via plugboard cables.
 
 This added an extra layer of complexity.
 
-**The Enigma Machine could be set up in so many ways before starting to encrypt. Each possible setup = 1 key.**
+This was the Enigma Machine used by the Nazis at World War-2:
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Enigma%20Mchine.jpeg?raw=true)
+
+
+- #### **Security strength**
+  
+With 3 rotors (chosen from 5), 26 positions per rotor, and 10 plugboard pairs → the number of possible initial settings was about 10²³.This made brute-forcing practically impossible at the time.
+
+---
+
+**Let's face an important question**
+
+`What does it mean by "With 3 rotors (chosen from 5), 26 positions per rotor, and 10 plugboard pairs → the number of possible initial settings was about 10²³"?`
+
+Ans:
+**The Enigma Machine could be set up in so many ways before starting to encrypt. Each possible setup = 1 key.**
+
+Let's explain this with its properties:
+
+- #### **Rotor Choice:**
+  
+  Out of 5 rotors (as there are 5 rotors in built) you must choose 3 and decide their orders. So that's Permutation:
+    (3 5​)×3!=60 choices
+
+- #### **Rotor Starting Position:**
+
+  Each Rotor can be rotated to 26 positions (A to Z). For 3 rotors = 26^3 choices which is the list of shifts.
+
+   example:
+  
+  |↑|↑|↑|
+  |8|2|5|
+  |↓|↓|↓|
+
+  What it's happening is that Let's assume for 5. So you go up and down like the **Odometer** . Then After completing its sequence you go to the column of 2 and then together with previous one you go up and down. And we will get 26 combinations for each column. That's why it's 26^3 choices.
+
+  Here's an image to understand the sequence :
+  
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Odometer.png?raw=true)
+
+  To understand how it relates to the Enigma Machine for Encryption, here's another image to understand the inside properties:
+
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Traversing.png?raw=true)
+
+- #### **Ring Setting:**
+
+  Each Rotor has an internal Ring Offset. So another 26^3 possibilities.
+
+- #### **Plug Board:**
+
+  10 pairs of Letters are swapped out of 26 letters. So Number of ways will be:
+  
+      \[
+      \frac{26!}{(26-20)! \cdot 10! \cdot 2^{10}} \approx 1.5 \times 10^{14}
+      \]
