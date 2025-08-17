@@ -59,6 +59,8 @@ For example:
 Encrypting the message **"LOVE"** using the key or master keyword **"SLIP"**.
 
 ---
+Let's assume (A=1,B=2,...Z=26)
+
 
 | Step | Plaintext | Equivalent Numbers | Key / Master Word | Key Numbers | Sum (mod 26) | Ciphertext |
 |------|-----------|------------------|-----------------|------------|---------------|------------|
@@ -77,7 +79,7 @@ So, placed the message "LOVE" over the master word "SLIP" . This method is known
 
 ---
 
-## How it Works
+### How it Works
 
 1. Each language has a **distinct frequency distribution** of letters.  
    - For example, in English: E > T > A > O > I > N > …  
@@ -101,3 +103,40 @@ Ans: With each code there is almost always some form of patters no matter how mi
 For example: Frequency of words in a sentence. 
 
 **The best code will have a lessened "Fingerprint" or more minuscle and therefore harder to intercept.** 
+
+`How can Someone design a cypher that hides her fingerprint?`
+
+Ans: By Randomness/Random Shifting method. As a result Frequency distribution will be uniform. It is known as **ONE TIME PAD**
+
+
+# **ONE TIME PAD**
+
+The **One-Time Pad** is a type of **perfectly secure encryption** method.  It uses a **random key** that is as long as the message and is used **only once**.
+
+The **One-Time Pad (OTP)** was famously used during the **Cold War** for secure communication between spies and intelligence agencies.
+
+`Why OTP Was Perfect for Cold War?`
+
+- **Perfect secrecy:** Impossible to crack if the key is random, secret, and used only once.  
+- **No pattern to exploit:** Unlike classical ciphers, OTP produces **ciphertext with completely random distribution**.  
+- **Portable:** Agents could carry small sheets of key sequences.  
+
+---
+
+**Historical Note**
+
+- OTP machines and key sheets were used by agencies like the **Soviet KGB** and **CIA**.  
+- A famous case: The **Venona project** tried to decrypt Soviet communications, but OTP messages that were properly used remained **unbreakable**.  
+- Any **reuse of keys** could compromise secrecy, which happened occasionally and allowed some messages to be cracked.
+---
+
+### How it Works
+
+1. Generate a **random key** equal in length to the plaintext.  
+2. Convert both **plaintext** and **key** letters to numbers (A=0, B=1, … Z=25).  
+3. Add corresponding numbers **mod 26**.  
+4. Convert the result back to letters to get the **ciphertext**.  
+
+**Important:** The key must be completely random, kept secret, and **never reused**. If reused, the encryption is no longer secure.
+
+---
