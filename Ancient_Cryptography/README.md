@@ -278,8 +278,4 @@ Let's explain this with its properties:
 
   10 pairs of Letters are swapped out of 26 letters. So Number of ways will be:
   
-      \[
-  
-      \frac{26!}{(26-20)! \cdot 10! \cdot 2^{10}} \approx 1.5 \times 10^{14}
-  
-      \]
+   26! / ((26 - 20)! * 10! * 2^10) ≈ 1.50541 × 10^14
