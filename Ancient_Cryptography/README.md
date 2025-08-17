@@ -541,9 +541,15 @@ He knew they weren’t truly random, but they were good enough for practical use
   
 
 
+
+
+
 `What's a "Seed" ?`
 
 A seed is the starting value (initial input) given to a pseudo-random number generator (PRNG).Since PRNGs are deterministic algorithms, the seed decides the entire sequence of numbers that will follow.
+
+
+
 
 
 
