@@ -394,19 +394,19 @@ We can generate truly Random Functions by measuring the Fluctuations which is kn
 
 **Electronic noise:**
 
-   Thermal noise in resistors or shot noise in semiconductors.
+    Thermal noise in resistors or shot noise in semiconductors.
 
 **Radioactive decay:**
 
-   Random emission of particles.
+     Random emission of particles.
 
 **Photon arrival times:**
 
-  Quantum fluctuations in light detection.
+    Quantum fluctuations in light detection.
 
 **Brownian motion:**
 
-  Random movement of microscopic particles in fluid.
+    Random movement of microscopic particles in fluid.
 
 These are unpredictable even if you know all initial conditions.
 
