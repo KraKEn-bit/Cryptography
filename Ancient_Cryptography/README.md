@@ -1,4 +1,4 @@
-## **What is Cryptography?**
+# **What is Cryptography?**
 
 Let's Explain this with a Simple Example of Data Transmission between Alice and Bob where a person named Eve will try to intercept the informations bewtween them:
 
@@ -43,7 +43,7 @@ So,
 
 Let's dive into **Polyalphabetic Cipher** !
 
-## **POLYALPHABETIC CIPHER:**
+# **POLYALPHABETIC CIPHER:**
 
 A **Polyalphabetic Cipher** is a type of substitution cipher in which **more than one alphabet is used** to encrypt the message. This makes it **much harder to break** using frequency analysis compared to monoalphabetic ciphers like Caesar Cipher.
 
