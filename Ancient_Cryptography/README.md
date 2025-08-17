@@ -8,7 +8,7 @@ Alice Shares a code with Bob that only Bob will have access to the datas. This i
 
 The codes will be created in such a way that even if a 3rd person named Eve tries to intercept the messages that is being transfarred between Bob and Alice, he will fail as those messages will seem meaningless to him. Example: **Caeser Cipher** .
 
-But then a major breakthrough was made after 800 years by the acquiring the method called **FREQUENCY ANALYSIS** . 
+But then a major breakthrough was made after 800 years by the acquiring of the method called **FREQUENCY ANALYSIS** . 
 
 
 
@@ -70,3 +70,14 @@ Encrypting the message **"LOVE"** using the key or master keyword **"SLIP"**.
 ---
 
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
+
+
+**Let's Face a Question**
+
+##### **Any Time there's a Differential in Letter frequencies; a leak of information occurs. These are caused by repeatation of the encrypted message. What does it mean?**
+
+Ans: With each code there is almost always some form of patters no matter how minor it is. Each pattern/unique difference is something that may stand out which will draw the attention to the intercepter's mind that could be dangerous for its privacy. 
+
+For example: Frequency of words in a sentence. 
+
+**The best code will have a lessened "Fingerprint" or more minuscle and therefore harder to intercept.** 
