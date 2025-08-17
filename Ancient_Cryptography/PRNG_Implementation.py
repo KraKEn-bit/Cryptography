@@ -18,7 +18,6 @@ class LCG_PRNG:
         return self.next() / self.m
 
 
-# Example usage
 prng = LCG_PRNG(seed=12345)
 
 for _ in range(5):
