@@ -22,5 +22,12 @@ For example:  In English:
   - `T`, `A`, `O`, `I`, `N` follow
 - By comparing the frequency of letters in the ciphertext to expected frequencies in the language, an attacker can **guess the substitutions**.
 
+For example:
+Let's assume a word : 'WKKJ'
+Here,
+-frequency of W is 1.
+-frequency of K is 2.
+-frequency of J is 1.
+
 So,
 **Frequency Analysis** is a technique used in cryptography to **break classical ciphers** by studying the frequency of letters or groups of letters in a ciphertext.
