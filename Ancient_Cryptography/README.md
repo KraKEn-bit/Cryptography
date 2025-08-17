@@ -255,7 +255,9 @@ Let's explain this with its properties:
    example:
   
   |↑|↑|↑|
+  
   |8|2|5|
+  
   |↓|↓|↓|
 
   What it's happening is that Let's assume for 5. So you go up and down like the **Odometer** . Then After completing its sequence you go to the column of 2 and then together with previous one you go up and down. And we will get 26 combinations for each column. That's why it's 26^3 choices.
@@ -277,5 +279,7 @@ Let's explain this with its properties:
   10 pairs of Letters are swapped out of 26 letters. So Number of ways will be:
   
       \[
+  
       \frac{26!}{(26-20)! \cdot 10! \cdot 2^{10}} \approx 1.5 \times 10^{14}
+  
       \]
