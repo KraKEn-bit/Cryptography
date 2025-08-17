@@ -139,17 +139,17 @@ The **One-Time Pad (OTP)** was famously used during the **Cold War** for secure 
 
 Ans: It's because of the Uniform Distributions in OTP.
 
-### **Encryption Process:**
+- ### **Encryption Process:**
 
 Each plaintext letter is combined with a truly random key letter (mod 26).
 Example: Plaintext H + Random key X → Ciphertext letter.
 
-### **Effect on Ciphertext:**
+- ### **Effect on Ciphertext:**
 
 Because the key is completely random, every possible ciphertext letter is equally likely, regardless of the plaintext.
 This means the letter frequency in the ciphertext is uniform.
 
-### **Implications:**
+- ### **Implications:**
 
 Frequency analysis is useless against OTP.
 The ciphertext contains no patterns, so an attacker cannot deduce anything about the plaintext from the ciphertext alone.
