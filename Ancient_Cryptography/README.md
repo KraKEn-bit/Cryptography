@@ -41,6 +41,10 @@ So,
 [Watch this video on Caeser Cipher and Frequency Analysis](https://youtu.be/sMOZf4GN3oc?si=gl5V0I-1-EtaizGY)
 
 
+Let's dive into **Polyalphabetic Cipher** !
+
+##POLYALPHABETIC CIPHER:
+
 Encrypting the message **"LOVE"** using the master keyword **"SLIP"**.
 
 ---
