@@ -11,4 +11,16 @@ The codes will be created in such a way that even if a 3rd person named Eve trie
 But then a major breakthrough was made after 800 years by the acquiring the method called **FREQUENCY ANALYSIS** . 
 
 
-## **What is a Frequency Analysis?**
+## **What is 'Frequency Analysis' ?**
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Frequency_of_Letters.png?raw=true)
+
+See how the graphical presentations of each english letter is acting. Every English letters have their own Frequency. It means how many time a letter has been used in a sentence or context.
+
+For example:  In English:
+- `E` is the most common letter
+  - `T`, `A`, `O`, `I`, `N` follow
+- By comparing the frequency of letters in the ciphertext to expected frequencies in the language, an attacker can **guess the substitutions**.
+
+So,
+**Frequency Analysis** is a technique used in cryptography to **break classical ciphers** by studying the frequency of letters or groups of letters in a ciphertext.
