@@ -262,7 +262,7 @@ Let's explain this with its properties:
 
   What it's happening is that Let's assume for 5. So you go up and down like the **Odometer** . Then After completing its sequence you go to the column of 2 and then together with previous one you go up and down. And we will get 26 combinations for each column. That's why it's 26^3 choices.
 
-  Here's an image to understand the sequence :
+  Here's an image of an ODOMETER to understand the sequence :
   
   ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Odometer.png?raw=true)
 
@@ -293,3 +293,26 @@ Let's explain this with its properties:
   Here's a well Documented Explanation of Enigma Machine:
 
   [How Enigma Machine worked and how it was so influencial](https://youtu.be/-1ZFVwMXSXY?si=IR1wRV5XG3ggNwBe)
+
+
+`What was meant by 'KEY' for Enigma Machine?`
+
+Ans:
+
+- **For the Enigma machine:**
+
+A key meant the machine’s setup for that day →
+  - which rotors were chosen and in what order
+  - what the starting letters of each rotor were
+  - the ring settings inside each rotor
+  - the plugboard connections
+
+That whole setup = the key.
+
+If you and I both had Enigma machines:
+
+If I set my machine to today’s key and type a message, it comes out scrambled.
+
+If you set your machine to the same key, and type the scrambled message, you get the original back.
+
+-> So in Enigma’s context, “keys” = the secret daily machine settings.
