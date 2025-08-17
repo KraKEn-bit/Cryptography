@@ -166,7 +166,12 @@ Here's a simple image to understand the frequency distributions of the letters i
   1) It can only be use if you can meet the other person and translate the pad to them secretly.
   2) It is actually difficult to generate large quantities of truly random Numbers.
   3) You can only use the OTP key only **ONCE**
-     
+
+
+Here's a simple yet influencial Explanation on OTP:
+
+[Watch how OTP works](https://youtu.be/FlIG3TvQCBQ?si=9PaGgqOk5TxxHN-_)
+
 ---
 
 **Let's Face a Question**
