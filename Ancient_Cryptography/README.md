@@ -538,9 +538,11 @@ He knew they weren’t truly random, but they were good enough for practical use
   
 
 There's an Interesting catch for Pseudo Random numbers. 
+
 `If you generate numbers pseudo randomly there are many sequences that cannot occur ! What does it mean?`
 
   Ans:
+  
   A true random source (like flipping a fair coin 10 times) can produce any possible sequence of outcomes.
 
   Example: HHHHHHHHHH or HTTHTHTTHT — all are possible.
