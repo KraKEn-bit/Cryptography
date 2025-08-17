@@ -484,7 +484,7 @@ Formula: **Xn+1 = (a*Xn + C) mod m**
 
 Here's a simple program in Python to demonstrate how the Algorithm is implemented:
 
-![PRNG_CODE](https://github.com/KraKEn-bit/Cryptography/blob/main/Ancient_Cryptography/PRNG_Implementation.py)
+[PRNG_CODE](https://github.com/KraKEn-bit/Cryptography/blob/main/Ancient_Cryptography/PRNG_Implementation.py)
 
 **Let's dive into the history for Pseudo Number genrator. Why it was made in the first place?**
 
