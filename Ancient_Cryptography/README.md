@@ -475,10 +475,9 @@ This was one of the earliest PRNGs.
 
 - #### **Linear Congruential Generator (LCG) (later improvement):**
 
-Formula: Xn+1 = (a*Xn + C) mod m
+Formula: **Xn+1 = (a*Xn + C) mod m**
  
  where X0 = Seed 
-
  a,c,m are carefully chosen Constants. 
 
  This formula Produces long sequences that look random .
@@ -499,7 +498,6 @@ He knew they weren’t truly random, but they were good enough for practical use
 
 `What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?`
 
-
 | Feature            | Random Numbers (True Random)            | Pseudo-Random Numbers (PRNG)               |
 |--------------------|------------------------------------------|---------------------------------------------|
 | **Source**         | Natural/physical phenomena (e.g., radioactive decay, atmospheric noise) | Mathematical algorithms (e.g., Linear Congruential Generator) |
@@ -508,3 +506,29 @@ He knew they weren’t truly random, but they were good enough for practical use
 | **Speed**          | Slower (requires hardware)              | Very fast (software-based)                  |
 | **Quality**        | Truly random                            | Only *appears* random (deterministic)       |
 | **Use Cases**      | Cryptography, lotteries, gambling       | Games, simulations, testing, ML, graphics   |
+
+- **Another analogy:**
+
+  Let's represent each sequence as a random walk. They seem similar at first but then we can see the difference. The pseudo random sequence must eventually repeat. This occurs when the      Algorithm reaches a seed it has previously used and hence this cycle continues and repeats. The length  before a pseudo random sequence repeats is called **"THE PERIOD** . It's stricly    limited by the length of the inital seed.
+
+  For example: If we use a 2 digit seed then an algorithm can produce at most 100 numbers before reusing a seed and repeat the cycle. A 3 digit seed can't pass more than 1000 numbers        repeating.
+
+  Let's visualize this through an Image.
+  
+  Here's a simple visualization of the Difference **where the "White" is Random numbers sequence and "Blue" is Pseudo Random Number sequence.**
+
+  **Notice how it gradually changes:**
+  
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Difference_Pseudo_Random%20(4).png?raw=true)
+
+
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Difference_Pseudo_Random%20(3).png?raw=true)
+
+
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Difference_Pseudo_Random%20(2).png?raw=true)
+
+
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Difference_Pseudo_Random%20(1).png?raw=true)
+  
+
+  So We can say **The pseudo random sequence must eventually repeat** .
