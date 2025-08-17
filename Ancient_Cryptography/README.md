@@ -156,8 +156,15 @@ The ciphertext contains no patterns, so an attacker cannot deduce anything about
 
 This is why OTP is called “perfectly secure”.
 
-Here's a simple image to understand the frequency distributions of the letters:
+Here's a simple image to understand the frequency distributions of the letters in **One time Pad(OTP)**:
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Uniform%20Distribution%20of%20letters.png?raw=true)
 
+
+- ###**Disadvantages of OTP**
+  
+  1) It can only be use if you can meet the other person and translate the pad to them secretly.
+  2) It is actually difficult to generate large quantities of truly random Numbers.
+  3) You can only use the OTP key only **ONCE**
 ---
+
