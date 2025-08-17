@@ -388,7 +388,7 @@ We can generate truly Random Functions by measuring the Fluctuations which is kn
 
 `How can we generate through NOISE?`
 
-- #### 1.**Source of True Randomness:**
+- #### 1. **Source of True Randomness:**
 
   True randomness is often derived from physical processes that are inherently unpredictable. Some common sources:
 
@@ -397,12 +397,15 @@ We can generate truly Random Functions by measuring the Fluctuations which is kn
    Thermal noise in resistors or shot noise in semiconductors.
 
 **Radioactive decay:**
+
    Random emission of particles.
 
 **Photon arrival times:**
+
   Quantum fluctuations in light detection.
 
 **Brownian motion:**
+
   Random movement of microscopic particles in fluid.
 
 These are unpredictable even if you know all initial conditions.
