@@ -465,20 +465,20 @@ Most pseudo-random number generators (PRNGs) work by starting with a seed and re
 
 - #### **Middle-Square Method (von Neumann, 1946):**
   
-This was one of the earliest PRNGs.
-  1) Choose a starting seed (say 1234).
-  2) Square it → 1234² = 1522756.
-  3) Take the middle digits (e.g., 2275).
-  4) That becomes the next random number.
-  5) Repeat.
+  This was one of the earliest PRNGs.
+    1) Choose a starting seed (say 1234).
+    2) Square it → 1234² = 1522756.
+    3) Take the middle digits (e.g., 2275).
+    4) That becomes the next random number.
+    5) Repeat.
 
 
 - #### **Linear Congruential Generator (LCG) (later improvement):**
 
-Formula: **Xn+1 = (a*Xn + C) mod m**
+    Formula: **Xn+1 = (a*Xn + C) mod m**
  
- where X0 = Seed 
- a,c,m are carefully chosen Constants. 
+     where X0 = Seed 
+     a,c,m are carefully chosen Constants. 
 
  This formula Produces long sequences that look random .
 
