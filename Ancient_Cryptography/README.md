@@ -491,7 +491,7 @@ But everything has its own cons. For example: PRNGs are not suitable for cryptog
 
 
 
-**Let's dive into the history for Pseudo Number genrator. Why it was made in the first place?**
+### **Let's dive into the history for Pseudo Number genrator. Why it was made in the first place?**
 
 Von Neumann created pseudo-random numbers in the 1940s, during the early days of computers, mainly for Monte Carlo simulations (used in physics, nuclear research, and wartime projects like the Manhattan Project). Computers were deterministic, so they couldn’t generate true randomness.
 He devised the middle-square method to give computers a way to produce “random-looking” numbers for simulations.
