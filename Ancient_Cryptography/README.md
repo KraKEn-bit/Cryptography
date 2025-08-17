@@ -41,18 +41,17 @@ So,
 [Watch this video on Caeser Cipher and Frequency Analysis](https://youtu.be/sMOZf4GN3oc?si=gl5V0I-1-EtaizGY)
 
 
-For Example:
+Encrypting the message **"LOVE"** using the master keyword **"SLIP"**.
 
-| Plaintext             | L | O | V | E |
+---
 
-| Equivalent numbers    |12 |15 |20 | 5 |
+| Step | Plaintext | Equivalent Numbers | Key / Master Word | Key Numbers | Sum (mod 26) | Ciphertext |
+|------|-----------|------------------|-----------------|------------|---------------|------------|
+| 1    | L         | 11               | S               | 18         | 29 → 3        | D          |
+| 2    | O         | 14               | L               | 11         | 25            | Z          |
+| 3    | V         | 21               | I               | 8          | 29 → 3        | D          |
+| 4    | E         | 4                | P               | 15         | 19            | T          |
 
-| Key/Master word       | S | L | I | P |
-
-| Equivalent numbers    |19 |12 | 9 | 14|
-
-| Adding curr+previous  |31 |27 |29 | 19|
-
-| Ciphertext            | E | A | C | S |
+---
 
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
