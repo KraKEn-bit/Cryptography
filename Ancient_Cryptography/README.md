@@ -494,6 +494,8 @@ He knew they weren’t truly random, but they were good enough for practical use
 
 ---
 
+
+
 **Let's Face a question**
 
 `What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?`
@@ -507,7 +509,8 @@ He knew they weren’t truly random, but they were good enough for practical use
 | **Quality**        | Truly random                            | Only *appears* random (deterministic)       |
 | **Use Cases**      | Cryptography, lotteries, gambling       | Games, simulations, testing, ML, graphics   |
 
-- **Another analogy:**
+
+- #### **Another analogy:**
 
   Let's represent each sequence as a random walk. They seem similar at first but then we can see the difference. The pseudo random sequence must eventually repeat. This occurs when the      Algorithm reaches a seed it has previously used and hence this cycle continues and repeats. The length  before a pseudo random sequence repeats is called **"THE PERIOD** . It's stricly    limited by the length of the inital seed.
 
@@ -532,3 +535,34 @@ He knew they weren’t truly random, but they were good enough for practical use
   
 
   So We can say **The pseudo random sequence must eventually repeat** .
+  
+
+There's an Interesting catch for Pseudo Random numbers. 
+`If you generate numbers pseudo randomly there are many sequences that cannot occur ! What does it mean?`
+
+  Ans:
+  A true random source (like flipping a fair coin 10 times) can produce any possible sequence of outcomes.
+
+  Example: HHHHHHHHHH or HTTHTHTTHT — all are possible.
+  
+  A PRNG is algorithmic: It takes a seed and generates numbers using a deterministic formula.
+  This means the number of possible sequences is limited by the algorithm and seed size.
+  
+  Some sequences simply cannot ever appear, no matter what seed you pick.
+
+- #### **Simple Example:**
+
+  Imagine a PRNG with:
+  
+  Seed: 2 digits (00–99 → 100 possible seeds). Each seed produces a sequence of length 10.
+
+  That gives only 100 possible sequences total. But if you flip a real coin 10 times, there are  2^10 = 1024 possible sequences.
+
+  That means 924 sequences can never be produced by this PRNG — they are missing ?!
+
+  
+- #### **Why It Happens?**
+
+  1) True randomness explores all possibilities.
+  2) Pseudo-randomness is constrained to the patterns that the algorithm allows.
+  3) Even if it “looks random,” the space of outcomes is a subset of all possible sequences.
