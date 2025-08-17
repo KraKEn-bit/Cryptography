@@ -161,7 +161,7 @@ Here's a simple image to understand the frequency distributions of the letters i
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Uniform%20Distribution%20of%20letters.png?raw=true)
 
 
-- ###**Disadvantages of OTP**
+- ### **Disadvantages of OTP**
   
   1) It can only be use if you can meet the other person and translate the pad to them secretly.
   2) It is actually difficult to generate large quantities of truly random Numbers.
