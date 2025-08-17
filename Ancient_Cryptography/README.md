@@ -590,4 +590,18 @@ There's an Interesting catch for Pseudo Random numbers.
   3) Even if it “looks random,” the space of outcomes is a subset of all possible sequences.
 
 
+**Let's Compare Modern and Old PRNGS:**
+
+
+
+| Feature              | Old PRNGs (Middle-Square, LCG) | Modern PRNGs (Mersenne Twister, PCG, Xorshift) |
+|-----------------------|--------------------------------|------------------------------------------------|
+| **Period**           | Very short (often < 10⁶)       | Extremely long (e.g., 2^19937−1 for MT)        |
+| **Speed**            | Moderate / slow                | Very fast, optimized for computers             |
+| **Statistical Quality** | Weak, noticeable patterns    | Pass strict randomness tests                   |
+| **Reproducibility**  | Yes (seed-based)               | Yes (seed-based, but with huge variety)        |
+| **Cryptographic Use**| ❌ Not safe                     | ❌ Not safe (use CSPRNGs instead)              |
+| **Applications**     | Early simulations, experiments | Games, simulations, ML, graphics, RNG APIs     |
+
+
 ---
