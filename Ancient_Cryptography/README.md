@@ -139,4 +139,26 @@ The **One-Time Pad (OTP)** was famously used during the **Cold War** for secure 
 
 **Important:** The key must be completely random, kept secret, and **never reused**. If reused, the encryption is no longer secure.
 
----
+`Why One time Pad (OTP) was perfectly secure?`
+Ans: It's because of the Uniform Distributions in OTP.
+
+**Encryption Process:**
+
+Each plaintext letter is combined with a truly random key letter (mod 26).
+Example: Plaintext H + Random key X → Ciphertext letter.
+
+**Effect on Ciphertext:**
+
+Because the key is completely random, every possible ciphertext letter is equally likely, regardless of the plaintext.
+This means the letter frequency in the ciphertext is uniform.
+
+**Implications:**
+
+Frequency analysis is useless against OTP.
+The ciphertext contains no patterns, so an attacker cannot deduce anything about the plaintext from the ciphertext alone.
+
+This is why OTP is called “perfectly secure”.
+
+Here's a simple image to understand the frequency distributions of the letters:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Uniform%20Distribution%20of%20letters.png?raw=true)
