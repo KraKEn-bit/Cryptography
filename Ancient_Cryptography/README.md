@@ -381,3 +381,63 @@ Here's an image of the BOMBE that was used to Decrypt the message transfarred th
 
 ---
 
+
+**Let's get back to the part where Randomness was needed for Encryption**
+
+We can generate truly Random Functions by measuring the Fluctuations which is known as **NOISE** . By sampling the we can predict the randomness. 
+
+`How can we generate through NOISE?`
+
+- #### 1.**Source of True Randomness:**
+
+  True randomness is often derived from physical processes that are inherently unpredictable. Some common sources:
+
+**Electronic noise:**
+
+   Thermal noise in resistors or shot noise in semiconductors.
+
+**Radioactive decay:**
+   Random emission of particles.
+
+**Photon arrival times:**
+  Quantum fluctuations in light detection.
+
+**Brownian motion:**
+  Random movement of microscopic particles in fluid.
+
+These are unpredictable even if you know all initial conditions.
+
+- #### **2. Measuring Fluctuations:**
+
+You need a device to measure the fluctuating signal from your source. Examples:
+Voltage across a resistor: Thermal noise produces tiny voltage variations.
+
+**Photon detector:**
+  Records times photons hit a sensor.
+
+The signal is analog, continuous, and noisy.
+
+- #### **3. Sampling and Digitizing:**
+
+Convert the analog fluctuations to digital values:
+  1)Use an ADC (Analog-to-Digital Converter) to sample the signal at discrete time intervals.
+  2)The ADC output gives a series of numbers corresponding to the measured fluctuations.
+
+Each measurement is slightly different due to the inherent randomness of the source.
+
+
+- #### **4. Generating Random Numbers or Functions:**
+
+From these digital samples, you can construct:
+Random numbers (raw or post-processed to remove bias).
+
+**Random functions:**
+Treat the sequence of measurements as a function over time or space.
+
+Example:
+
+f(ti)=xi​
+
+where xi is the digitized measurement at time ti. 
+
+Smoothing '/' interpolation can turn discrete samples into a continuous random function if needed.
