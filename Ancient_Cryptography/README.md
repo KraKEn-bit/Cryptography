@@ -510,6 +510,8 @@ He knew they weren’t truly random, but they were good enough for practical use
 | **Use Cases**      | Cryptography, lotteries, gambling       | Games, simulations, testing, ML, graphics   |
 
 
+
+
 - #### **Another analogy:**
 
   Let's represent each sequence as a random walk. They seem similar at first but then we can see the difference. The pseudo random sequence must eventually repeat. This occurs when the      Algorithm reaches a seed it has previously used and hence this cycle continues and repeats. The length  before a pseudo random sequence repeats is called **"THE PERIOD** . It's stricly    limited by the length of the inital seed.
@@ -534,7 +536,8 @@ He knew they weren’t truly random, but they were good enough for practical use
   ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Difference_Pseudo_Random%20(1).png?raw=true)
   
 
-  So We can say **The pseudo random sequence must eventually repeat** .
+
+  So We can say:  **The pseudo random sequence must eventually repeat** .
   
 
 There's an Interesting catch for Pseudo Random numbers. 
@@ -547,14 +550,14 @@ There's an Interesting catch for Pseudo Random numbers.
 
   Example: HHHHHHHHHH or HTTHTHTTHT — all are possible.
   
-  A PRNG is algorithmic: It takes a seed and generates numbers using a deterministic formula.
+  A PRNG(Pseudo Random Number Generator) is algorithmic: It takes a seed and generates numbers using a deterministic formula.
   This means the number of possible sequences is limited by the algorithm and seed size.
   
   Some sequences simply cannot ever appear, no matter what seed you pick.
 
 - #### **Simple Example:**
 
-  Imagine a PRNG with:
+  Imagine a PRNG(Pseudo Random Number Generator) with:
   
   Seed: 2 digits (00–99 → 100 possible seeds). Each seed produces a sequence of length 10.
 
