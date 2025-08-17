@@ -333,7 +333,7 @@ Ans:
 
 The Bombe was an electromechanical machine designed by Alan Turing, Gordon Welchman, and their team at Bletchley Park (UK). Its purpose was to find the daily Enigma key settings (rotors, positions, plugboard) by testing thousands of possibilities very quickly.
 
-### **How did they work? **
+### **How did they work?**
 
 Ans:
 
