@@ -279,3 +279,17 @@ Let's explain this with its properties:
   10 pairs of Letters are swapped out of 26 letters. So Number of ways will be:
   
    26! / ((26 - 20)! * 10! * 2^10) ≈ 1.50541 × 10^14
+
+- #### **Total KEY SPACES:**
+
+  60 * 26^3 * 26^3 * 1.50541 × 10^14 = 1.6 X 10^23
+
+  Different possible Keys.
+
+  **That’s what “about 10²³” means → there are 100,000,000,000,000,000,000,000 possible ways to set up the machine!**
+
+  This was considered “unbreakable” in the 1940s without shortcuts, but Allied cryptanalysts found weaknesses in operator habits and design flaws.
+
+  Here's a well Documented Explanation of Enigma Machine:
+
+  [How Enigma Machine worked and how it was so influencial](https://youtu.be/-1ZFVwMXSXY?si=IR1wRV5XG3ggNwBe)
