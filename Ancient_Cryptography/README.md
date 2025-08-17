@@ -98,7 +98,7 @@ Ans: With each code there is almost always some form of patters no matter how mi
 
 For example: Frequency of words in a sentence. 
 
-**The best code will have a lessened "Fingerprint" or more minuscle and therefore harder to intercept.** 
+- **The best code will have a lessened "Fingerprint" or more minuscle and therefore harder to intercept.** 
 
 `How can Someone design a cypher that hides her fingerprint?`
 
