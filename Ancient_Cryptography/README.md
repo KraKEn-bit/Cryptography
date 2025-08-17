@@ -44,10 +44,15 @@ So,
 For Example:
 
 | Plaintext             | L | O | V | E |
+
 | Equivalent numbers    |12 |15 |20 | 5 |
+
 | Key/Master word       | S | L | I | P |
+
 | Equivalent numbers    |19 |12 | 9 | 14|
+
 | Adding curr+previous  |31 |27 |29 | 19|
+
 | Ciphertext            | E | A | C | S |
 
 So, placed the message "LOVE" over the master word "SLIP" . This method is known as **SHIFTING** . 
