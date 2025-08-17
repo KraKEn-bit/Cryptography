@@ -499,7 +499,7 @@ He knew they weren’t truly random, but they were good enough for practical use
 
 **Let's Face a question**
 
-`What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?**
+`What's the difference between Randomly Generated and Pseudo Randomly Generated Numbers?**`
 
 
 | Feature            | Random Numbers (True Random)            | Pseudo-Random Numbers (PRNG)               |
