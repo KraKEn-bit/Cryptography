@@ -540,6 +540,14 @@ He knew they weren’t truly random, but they were good enough for practical use
   So We can say:  **The pseudo random sequence must eventually repeat** .
   
 
+
+`What's a "Seed" ?`
+
+A seed is the starting value (initial input) given to a pseudo-random number generator (PRNG).Since PRNGs are deterministic algorithms, the seed decides the entire sequence of numbers that will follow.
+
+
+
+
 There's an Interesting catch for Pseudo Random numbers. 
 
 `If you generate numbers pseudo randomly there are many sequences that cannot occur ! What does it mean?`
