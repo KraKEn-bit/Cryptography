@@ -170,7 +170,7 @@ Here's a simple image to understand the frequency distributions of the letters i
 
 Here's a simple yet influencial Explanation on OTP:
 
-[Watch how OTP works](https://youtu.be/FlIG3TvQCBQ?si=9PaGgqOk5TxxHN-_)
+![Watch how OTP works](https://youtu.be/FlIG3TvQCBQ?si=9PaGgqOk5TxxHN-_)
 
 ---
 
