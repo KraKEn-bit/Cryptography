@@ -74,7 +74,7 @@ So, placed the message "LOVE" over the master word "SLIP" . This method is known
 
 **Let's Face a Question**
 
-##### **Any Time there's a Differential in Letter frequencies; a leak of information occurs. These are caused by repeatation of the encrypted message. What does it mean?**
+#### **Any Time there's a Differential in Letter frequencies; a leak of information occurs. These are caused by repeatation of the encrypted message. What does it mean?**
 
 Ans: With each code there is almost always some form of patters no matter how minor it is. Each pattern/unique difference is something that may stand out which will draw the attention to the intercepter's mind that could be dangerous for its privacy. 
 
