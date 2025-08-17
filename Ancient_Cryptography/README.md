@@ -93,7 +93,7 @@ Here's a simple program to demonstrate the Frequency Fingerprints:
 
 [Frequency Fingerprint](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/pi/frequency-fingerprint-exploration)
 
-
+---
 **Let's Face a Question**
 
 `Any Time there's a Differential in Letter frequencies; a leak of information occurs. These are caused by repeatation of the encrypted message. What does it mean?`
@@ -108,7 +108,7 @@ For example: Frequency of words in a sentence.
 
 Ans: By Randomness/Random Shifting method. As a result Frequency distribution will be uniform. It is known as **ONE TIME PAD**
 
-
+---
 # **ONE TIME PAD**
 
 The **One-Time Pad** is a type of **perfectly secure encryption** method.  It uses a **random key** that is as long as the message and is used **only once**.
@@ -163,3 +163,5 @@ This is why OTP is called “perfectly secure”.
 Here's a simple image to understand the frequency distributions of the letters:
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Uniform%20Distribution%20of%20letters.png?raw=true)
+
+---
