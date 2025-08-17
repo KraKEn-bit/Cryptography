@@ -193,15 +193,15 @@ During the World War 2 Encryption-Decryption was the key factor for anticipatinf
 
 An elctro mechanical rotor Cipher machine used mainly by the German Military to encrypt and decrypt secret messages. It looked like a typewriter inside a wooden box, but instead of printing letters, it lit them up on a lampboard.
 
-### **How it worked**
+### **How it worked:**
 
-- **Keyboard input:**
+- #### **Keyboard input:**
 
   1)You press a letter (say A) on the keyboard.
 
   2)Electricity flows into the wiring system.
 
-- **Rotors (the brain of Enigma):**
+- #### **Rotors (the brain of Enigma):**
 
   1)Enigma had 3–5 rotors, each containing a scrambled alphabet wired internally.
 
@@ -211,7 +211,7 @@ An elctro mechanical rotor Cipher machine used mainly by the German Military to 
 
   4)This creates a polyalphabetic substitution cipher (different encryption for the same letter each time).
 
-- **Reflector:**
+- #### **Reflector:**
 
   1)After passing through all rotors, the current hits a reflector.
 
@@ -219,7 +219,7 @@ An elctro mechanical rotor Cipher machine used mainly by the German Military to 
 
   3)This ensures encryption is symmetrical: the same settings encrypt and decrypt.
 
-- **Lampboard output:**
+- #### **Lampboard output:**
 
 Finally, a lamp lights up showing the encrypted letter (e.g., pressing A might give G).
 
@@ -230,3 +230,5 @@ Before and after the rotors, letters could be swapped via plugboard cables.
 This added an extra layer of complexity.
 
 **The Enigma Machine could be set up in so many ways before starting to encrypt. Each possible setup = 1 key.**
+
+
