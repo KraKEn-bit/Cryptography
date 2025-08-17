@@ -346,7 +346,14 @@ By using the known plaintext (cribs). Allies often guessed parts of German messa
 - #### **Process:**
 
   The Bombe didn’t directly decrypt messages.Instead, it rapidly eliminated wrong keys, narrowing millions of possibilities down to a handful.
+  
+  It iterates through each combinations finding the leading key and elimating the column reducing posibilities down.
 
+  Here's an image to understand how it worked:
+
+  ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/How%20The%20Bombes%20Iterates%20through%20each%20combinations%20of%20the%20Enigma.png?raw=true)
+
+  
   Human cryptanalysts then tested the remaining candidates on real Enigma machines.
 
 - #### **Speed advantage:**
@@ -369,5 +376,8 @@ Historians believe breaking Enigma shortened WWII by ~2 years.
 
 Here's an image of the BOMBE that was used to Decrypt the message transfarred through ENIGMA:
 
+
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/BOMBES.png?raw=true)
+
+---
 
