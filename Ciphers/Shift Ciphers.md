@@ -44,9 +44,8 @@ C = (P + k) \mod 26
 
 ###  Encrypted Text: OXCPXK
 
-
-
-
+<br>
+<br>
 
 # **How TO Decrypt:**
 
