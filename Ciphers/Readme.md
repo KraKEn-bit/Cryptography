@@ -152,3 +152,21 @@ We’ll use a simple mapping:<br>
 - **Morse sequence generated:**
 
 – · · – – – – – – · · –
+
+<br>
+
+### **Let's represent this with a Binary Tree:**
+
+Where:<br> 
+- **Left child = dot (·)**  
+- **Right child = dash (–)**
+
+<br>
+
+              [Start]
+             /       \
+          · (A)      – (R)
+         /   \       /   \
+      ·(I)   ·(N) –(S)  –(F)
+     / \    / \   / \   / \
+  ·(O) ·(E) ·(C) ·(D) ·(L) ·(P) ·(U) ·(M)
