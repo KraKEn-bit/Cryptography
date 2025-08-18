@@ -43,3 +43,18 @@ C = (P + k) \mod 26
 | Letter | O  | X  | C  | P  | X  | K  |
 
 ###  Encrypted Text: OXCPXK
+
+
+
+
+
+# **How TO Decrypt:**
+
+For every letter in the cipher text C :<br>
+   - Convert the letter into the number that matches its order in the alphabet starting from 0, and call this number Y.
+      (A=0, B=1, C=2, ..., Y=24, Z=25)
+   - Calculate: X= (Y - K) mod 26
+   - Convert the number X into a letter that matches its order in the alphabet starting from 0.
+      (A=0, B=1, C=2, ..., Y=24, Z=25)
+     
+Our friend now decodes the message using our agreed upon key K=23. As follows:
