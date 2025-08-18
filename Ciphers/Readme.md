@@ -125,9 +125,7 @@ Let's go through this with a simple story: <br>
 **"Rafsan and I sailed over oceans, finding endless adventures in One Piece."**
 
 <br>
-
 We’ll use a simple mapping:<br>
 
- - Short words (≤3 letters) → dot (·)
-
+ - Short words (≤3 letters) → dot (·)<br>
  - Long words (>3 letters) → dash (–)
