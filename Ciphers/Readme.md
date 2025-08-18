@@ -196,3 +196,25 @@ Result: oceans
 **Here's a representation of Letter- 'B' in case of Morse Code where the Morse code of B here is :  - · · · ** 
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Morse%20Code_Letter-B%20representation.png?raw=true)
+
+
+
+
+### **The MASTERFUL WAY:**
+
+So, this actually about how the dashes and dots will sound like. You have to hear how they sound like instead of reading about the frequencies. Because it won't be interesting then right? :") . Because you should not learn what it looks like as a Pneumonic.
+
+Just so you know:
+  - A DOT is very Quick.
+  - A DASH is a bit longer.
+
+Here's some Amazing sites where you can hear and understand how the Morse Code works for English Letters:
+
+[Morse Code for Alphabets](https://commons.wikimedia.org/wiki/Category:Audio_files_of_Morse_code_-_alphabet)
+
+[Morse Code](https://youtu.be/Z-kZHXBqj4A?si=XEkHZCxdGPoScpwX)
+
+
+**LUCKILY There's a sit where you can generate MORSE CODE. You can play with that however you like :") . It's fun actually. 
+
+[MORSE CODE Sound Generator](https://elucidation.github.io/MorsePy/)
