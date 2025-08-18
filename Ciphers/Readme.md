@@ -3,6 +3,8 @@ When we talk about Ciphers we think of it like a Puzzle. And believe it or not I
 
 **Let's Dive a bit more into the concept behind Ciphers , Codes and their relations**
 
+<br>
+<br>
 
 # **Ciphers vs Codes**
 
