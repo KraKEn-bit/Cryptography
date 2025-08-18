@@ -208,19 +208,18 @@ Just so you know:
   - A DOT is very Quick.
   - A DASH is a bit longer.
 
-Here's some Amazing sites where you can hear and understand how the Morse Code works for English Letters:
-
+Here's some Amazing sites where you can hear and understand how the Morse Code works for English Letters:<br>
 [Morse Code for Alphabets](https://commons.wikimedia.org/wiki/Category:Audio_files_of_Morse_code_-_alphabet)
 
 [Morse Code](https://youtu.be/Z-kZHXBqj4A?si=XEkHZCxdGPoScpwX)
 
 
-**LUCKILY There's a sit where you can generate MORSE CODE. You can play with that however you like :") . It's fun actually.** 
-
+**LUCKILY There's a sit where you can generate MORSE CODE. You can play with that however you like :") . It's fun actually.** <br>
 [MORSE CODE Sound Generator](https://elucidation.github.io/MorsePy/)
 
-Another Video on MORSE CODE:
 
+
+Another Video on MORSE CODE:<br>
 [Here's a complete Youtube Video on MORSE CODE](https://elucidation.github.io/MorsePy/)
 
 Just try to learn the Masterful Way and how the MORSE CODE sounds can be memorized!
