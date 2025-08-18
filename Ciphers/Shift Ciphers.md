@@ -13,5 +13,33 @@ For every letter in the message M :
    -  Convert the number Y into a letter that matches its order in the alphabet starting from 0.
       (A=0, B=1, C=2, ...,Y=24, Z=25)
 
-For Example: We agree with our friend to use the Shift Cipher with key K=19 for our message. 
-We encrypt the message "KHAN", as follows:​
+For Example: We agree with our friend to use the Shift Cipher with key K=23 for our message. 
+We encrypt the message "RAFSAN", as follows:​
+
+
+**Plaintext:** `RAFSAN`  
+**Key (k):** 23  
+
+### Step 1: Convert letters to numbers (A=0, B=1, ..., Z=25)
+
+| Letter | R | A | F | S | A | N |
+|--------|---|---|---|---|---|---|
+| Value  | 17| 0 | 5 | 18| 0 | 13|
+
+### Step 2: Apply Caesar cipher formula
+
+\[
+C = (P + k) \mod 26
+\]
+
+| P  | 17 | 0  | 5  | 18 | 0  | 13 |
+|----|----|----|----|----|----|----|
+| C = (P+23) mod26 | 14 | 23 | 2  | 15 | 23 | 10 |
+
+### Step 3: Convert numbers back to letters
+
+| C  | 14 | 23 | 2  | 15 | 23 | 10 |
+|----|----|----|----|----|----|----|
+| Letter | O  | X  | C  | P  | X  | K  |
+
+###  Encrypted Text: OXCPXK
