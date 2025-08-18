@@ -9,12 +9,12 @@ class LCG_PRNG:
         self.state = seed     # seed / starting value
 
     def next(self) -> int:
-        """Generate the next pseudo-random number"""
+        """Generating the next pseudo-random number"""
         self.state = (self.a * self.state + self.c) % self.m
         return self.state
 
     def next_float(self) -> float:
-        """Generate a pseudo-random float between 0 and 1"""
+        """Generating a pseudo-random float between 0 and 1"""
         return self.next() / self.m
 
 
