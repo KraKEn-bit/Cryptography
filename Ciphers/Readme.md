@@ -77,7 +77,8 @@ Example:  A = · – , B = – · · ·  etc.
 
 Morse code was developed in the 1830s by Samuel Morse and Alfred Vail for use with the electric telegraph, and the first official message, “What hath God wrought?”, was sent in 1844 between Washington, D.C. and Baltimore. It quickly became the standard for long-distance communication in railroads, the military, and maritime services. By the mid-19th century, International Morse Code was standardized for worldwide use. In the early 20th century, it was essential for radio communication, and after the Titanic disaster in 1912, the SOS signal (· · · – – – · · ·) became the universal distress call. Although gradually replaced by modern digital systems in the late 20th century, Morse code remains a symbolic and practical tool in amateur radio, aviation, and emergency signaling today.
 
-
+<br>
+<br>
 
 Ok Let's head back to the main part:
 
