@@ -148,6 +148,7 @@ We’ll use a simple mapping:<br>
 | Piece      | 5       | –      |
 
 <br>
+
 - **Morse sequence generated:**
 
 – · · – – – – – – · · –
