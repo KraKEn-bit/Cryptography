@@ -20,3 +20,17 @@ On the other hand, Codes are a system that replaces entire words, phrases, or se
 Example: "Attack at dawn" → "Red Eagle". 
 
 Code works at the word or phrase level.Code depends on a codebook. More Examples: "Apple" = "Attack now" , Military codebooks ("Blue Sky" = "Retreat") etc .
+
+
+**If you want a more organized way to demonstrate the difference, here's a table that will be easier to know the difference:**
+
+
+| Feature              | Cipher 🧩 | Code 📖 |
+|----------------------|-----------|---------|
+| **Definition**       | Transforms individual **letters, numbers, or bits** using rules (algorithm + key) | Replaces entire **words, phrases, or sentences** with symbols/words from a **codebook** |
+| **Level of Operation** | Works at the **letter/character/bit** level | Works at the **word/phrase** level |
+| **Dependence**       | Requires an **algorithm + key** | Requires a **codebook** |
+| **Flexibility**      | Very flexible (change key → new system) | Not flexible (codebook must be updated if compromised) |
+| **Security Weakness** | If the key is exposed, cipher is broken | If the codebook is captured, whole system is broken |
+| **Examples**         | Caesar Cipher, Vigenère Cipher, AES, RSA | “Red Eagle” = “Attack at dawn”, military/diplomatic codebooks |
+| **Modern Usage**     | Dominates modern cryptography (digital security, encryption) | Rare today, used in intelligence, military signals |
