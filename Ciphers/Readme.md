@@ -53,8 +53,7 @@ So, In short: **A cipher changes the literal characters typed in based on some a
 
 `What is a Codebook?`
 
-Ans:
-
+Ans:<br>
 A codebook is a dictionary or reference list used in codes (not ciphers). It contains predefined substitutions, where specific words, phrases, or sentences are replaced with other words, numbers, or symbols. So instead of sending “Attack at dawn” as a word/Phrase , a messenger would just send “Red Eagle” as a code.
 
 **Only people with the same codebook would understand it.** 
