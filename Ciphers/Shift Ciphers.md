@@ -57,3 +57,30 @@ For every letter in the cipher text C :<br>
       (A=0, B=1, C=2, ..., Y=24, Z=25)
      
 Our friend now decodes the message using our agreed upon key K=23. As follows:
+
+**Ciphertext:** `O X C P X K`  
+**Key (k):** 23  
+
+### Step 1: Convert letters to numbers (A=0, B=1, ..., Z=25)
+
+| Letter | O | X | C | P | X | K |
+|--------|---|---|---|---|---|---|
+| Value  | 14| 23| 2 | 15| 23| 10 |
+
+### Step 2: Apply Caesar cipher decryption formula
+
+\[
+P = (C - k) \mod 26
+\]
+
+| C  | 14 | 23 | 2  | 15 | 23 | 10 |
+|----|----|----|----|----|----|----|
+| P = (C - 23) mod26 | 17 | 0  | 5  | 18 | 0  | 13 |
+
+### Step 3: Convert numbers back to letters
+
+| P  | 17 | 0  | 5  | 18 | 0  | 13 |
+|----|----|----|----|----|----|----|
+| Letter | R  | A  | F  | S  | A  | N  |
+
+###  Decrypted Text: RAFSAN
