@@ -129,3 +129,20 @@ We’ll use a simple mapping:<br>
 
  - Short words (≤3 letters) → dot (·)<br>
  - Long words (>3 letters) → dash (–)
+
+**Here's the demonstration of the words of the story I gave:**
+<br>
+| Word       | Letters | Symbol |
+| ---------- | ------- | ------ |
+| Rafsan     | 6       | –      |
+| and        | 3       | ·      |
+| I          | 1       | ·      |
+| sailed     | 6       | –      |
+| over       | 4       | –      |
+| oceans     | 6       | –      |
+| finding    | 7       | –      |
+| endless    | 7       | –      |
+| adventures | 10      | –      |
+| in         | 2       | ·      |
+| One        | 3       | ·      |
+| Piece      | 5       | –      |
