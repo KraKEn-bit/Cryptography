@@ -184,7 +184,7 @@ Legend: Left = · (dot), Right = – (dash)
 <br>
 
 For example:<br>
-**Example:** - Morse · – · · = Start → Right (Rafsan) → Left (sailed) → Left (oceans) = **oceans**
+**Example:** - Morse – · · = Start → Right (Rafsan) → Left (sailed) → Left (oceans) = **oceans**
 
 Result: oceans
 <br>
@@ -193,6 +193,6 @@ Result: oceans
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Morse%20Code_Binary%20Tree.png?raw=true)
 
-**Here's a representation of Letter- 'B' in case of Morse Code where the Morse code of B here is : -...** 
+**Here's a representation of Letter- 'B' in case of Morse Code where the Morse code of B here is :  - · · · ** 
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Morse%20Code_Letter-B%20representation.png?raw=true)
