@@ -94,3 +94,10 @@ Morse code is not just about dots (·) and dashes (–); it’s also about timin
   -Space between symbols in a letter = 1 unit<br>
   -Space between letters = 3 units<br>
   -Space between words = 7 units<br>
+
+<br>
+For example:<br> 
+Correct: · – = A <br>
+<br>
+Too fast: ··– → could be misread as U<br>
+Too slow: receiver may think two letters are separate words
