@@ -6,10 +6,11 @@ The Caesar Cipher is a type of shift cipher. Shift Ciphers work by using the mod
 # **How to Encrypt:**
 
 For every letter in the message M :
-    - 1. Convert the letter into the number that matches its order in the alphabet starting from 0, and call this number X.
+
+   - 1. Convert the letter into the number that matches its order in the alphabet starting from 0, and call this number X.
       ( A=0, B=1, C=2, ...,Y=24, Z=25)
-    - 2. Calculate: Y = (X + K) mod 26
-    - 3. Convert the number Y into a letter that matches its order in the alphabet starting from 0.
+   - 2. Calculate: Y = (X + K) mod 26
+   - 3. Convert the number Y into a letter that matches its order in the alphabet starting from 0.
       (A=0, B=1, C=2, ...,Y=24, Z=25)
 
 For Example: We agree with our friend to use the Shift Cipher with key K=19 for our message. 
