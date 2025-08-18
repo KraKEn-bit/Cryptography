@@ -79,4 +79,18 @@ Morse code was developed in the 1830s by Samuel Morse and Alfred Vail for use wi
 
 Ok Let's head back to the main part:
 
-So, the very BASIC thing about **MORSE CODE** is that they are made of **DOTs** and **DASHES** . Different combinations of the Dots and Dashes will produce different Letters. 
+So, the very BASIC thing about **MORSE CODE** is that they are made of **DOTs** and **DASHES** . Different combinations of the Dots and Dashes will produce different Letters. And different combinations of those letters will create **WORDS** .<br>
+When you're beeping out each letter, Dot takes **One Beat** and Dashes take up **Three of those Beats** . In this case Tempos Matter !!!
+
+`Why Tempo matters?`
+
+Ans:<br>
+Morse code is not just about dots (·) and dashes (–); it’s also about timing. The tempo (speed of sending) ensures that each symbol, letter, and word is distinguishable.
+
+### **The Basics of Timing:**
+
+  -Dot (·) = 1 unit of time<br>
+  -Dash (–) = 3 units of time<br>
+  -Space between symbols in a letter = 1 unit<br>
+  -Space between letters = 3 units<br>
+  -Space between words = 7 units<br>
