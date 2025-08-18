@@ -119,5 +119,15 @@ Too slow: receiver may think two letters are separate words
 
 <br>
 
-## **The QUICK and DIRTY METHOD:** 
+### **The QUICK and DIRTY METHOD:** 
 
+Let's go through this with a simple story: <br>
+**"Rafsan and I sailed over oceans, finding endless adventures in One Piece."**
+
+<br>
+
+We’ll use a simple mapping:<br>
+
+ - Short words (≤3 letters) → dot (·)
+
+ - Long words (>3 letters) → dash (–)
