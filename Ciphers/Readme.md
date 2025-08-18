@@ -64,9 +64,8 @@ Another famous Example is the **Morse Code** which introduces the idea of a code
 
 `What is Morse Code?`
 
-Ans:
-
-Morse Code is a system of encoding characters (letters, digits, punctuation) into a sequence of dots (·) and dashes (–). 
+Ans:<br>
+Morse Code is a system of encoding characters (letters, digits, punctuation) into a sequence of dots (·) and dashes (–).<br> 
 Example:  A = · – , B = – · · ·  etc.
 
 <br>
