@@ -86,3 +86,15 @@ P = (C - k) \mod 26
 | Letter | R  | A  | F  | S  | A  | N  |
 
 ###  Decrypted Text: RAFSAN
+
+
+---
+
+<br>
+
+### **Let's Face a Question:**
+
+`Why is the Shift Cipher insecure?`
+
+Ans:<br>
+A cipher should prevent an attacker, who has a copy of the cipher text but does not know the key, from discovering the contents of the message. Since we only have 26 choices for the key, someone can easily try all of the 26 keys, one by one, until they recover the message. This type of attack is called a brute force attack.
