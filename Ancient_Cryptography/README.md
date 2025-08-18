@@ -606,7 +606,7 @@ There's an Interesting catch for Pseudo Random numbers.
 
 
 
-To visualize the Difference more significantly Here's a link where you can see how they differ and how they act according to your given seeds:
+### **To visualize the Difference more significantly Here's a link where you can see how they differ and how they act according to your given seeds:**
 
 [Pseudo random and Random number Difference](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/pi/random-walk-exploration)
 
