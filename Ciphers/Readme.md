@@ -40,7 +40,11 @@ Code works at the word or phrase level.Code depends on a codebook. More Examples
 | **Modern Usage**     | Dominates modern cryptography (digital security, encryption) | Rare today, used in intelligence, military signals |
 
 
+### **Note To be Noted:**
 
+In case of Caeser Ciphers, we don’t need a codebook. Instead, we follow a series of instructions—also known as an algorithm—where we shift each letter by a certain number. The algorithm requires one piece of shared information known as a key. In the example above where A→D, the key is four. This shared key is required for two parties to encrypt messages: HELLO → KHOOR, and decrypt messages: KHOOR→HELLO.
+
+ 
 So, In short: **A cipher changes the literal characters typed in based on some algorithm while a code shortens linguistic constructs based on their meaning.**
 
 ---
@@ -64,13 +68,7 @@ Ans:
 
 Morse Code is a system of encoding characters (letters, digits, punctuation) into a sequence of dots (·) and dashes (–). 
 
-Example:
-
-A = · –
-
-B = – · · ·
-
-etc.
+Example:  A = · – , B = – · · ·  etc.
 
 
 **Let's dive into the History Behind Morse Code**
@@ -78,3 +76,9 @@ etc.
 ### **History of MORSE CODE**
 
 Morse code was developed in the 1830s by Samuel Morse and Alfred Vail for use with the electric telegraph, and the first official message, “What hath God wrought?”, was sent in 1844 between Washington, D.C. and Baltimore. It quickly became the standard for long-distance communication in railroads, the military, and maritime services. By the mid-19th century, International Morse Code was standardized for worldwide use. In the early 20th century, it was essential for radio communication, and after the Titanic disaster in 1912, the SOS signal (· · · – – – · · ·) became the universal distress call. Although gradually replaced by modern digital systems in the late 20th century, Morse code remains a symbolic and practical tool in amateur radio, aviation, and emergency signaling today.
+
+
+
+Ok Let's head back to the main part:
+
+So, the very BASIC thing about **MORSE CODE** is that they are made of **DOTs** and **DASHES** . Different combinations of the Dots and Dashes will produce different Letters. 
