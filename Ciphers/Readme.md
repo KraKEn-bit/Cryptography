@@ -42,3 +42,18 @@ Code works at the word or phrase level.Code depends on a codebook. More Examples
 
 
 So, In short: **A cipher changes the literal characters typed in based on some algorithm while a code shortens linguistic constructs based on their meaning.**
+
+---
+
+### **Let's Face a question**
+
+`What is a Codebook?`
+
+Ans:
+
+A codebook is a dictionary or reference list used in codes (not ciphers). It contains predefined substitutions, where specific words, phrases, or sentences are replaced with other words, numbers, or symbols. So instead of sending “Attack at dawn” as a word/Phrase , a messenger would just send “Red Eagle” as a code.
+
+**Only people with the same codebook would understand it.** 
+
+Another famous Example is the morse Code which introduces the idea of a codebook ! 
+
