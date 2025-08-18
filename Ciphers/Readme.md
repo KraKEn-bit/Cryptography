@@ -181,8 +181,12 @@ Legend: Left = · (dot), Right = – (dash)
 - For each **dot (·)**, go **left**.  
 - For each **dash (–)**, go **right**.  
 - The **leaf node** you reach is the letter.  
+<br>
 
+For example:<br>
+**Example:** - Morse · – · · = Start → Right (Rafsan) → Left (sailed) → Left (oceans) = **oceans**
 
+Result: oceans
 **Here's an Image to demonstrate more accurately:**
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Morse%20Code_Binary%20Tree.png?raw=true)
