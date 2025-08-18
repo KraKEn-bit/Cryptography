@@ -214,7 +214,7 @@ Here's some Amazing sites where you can hear and understand how the Morse Code w
 [Morse Code](https://youtu.be/Z-kZHXBqj4A?si=XEkHZCxdGPoScpwX)
 
 
-**LUCKILY There's a sit where you can generate MORSE CODE. You can play with that however you like :") . It's fun actually.** <br>
+**LUCKILY There's a site where you can generate MORSE CODE. You can play with that however you like :") . It's fun actually.** <br>
 [MORSE CODE Sound Generator](https://elucidation.github.io/MorsePy/)
 
 
