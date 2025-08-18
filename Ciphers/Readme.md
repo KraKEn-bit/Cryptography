@@ -64,8 +64,10 @@ Another famous Example is the **Morse Code** which introduces the idea of a code
 
 
 <br>
+
 # **MORSE CODE**
 
+<br>
 <br>
 
 `What is Morse Code?`
