@@ -9,9 +9,13 @@ When we talk about Ciphers we think of it like a Puzzle. And believe it or not I
 
 ### **Ciphers:**
 
-A method of transforming individual letters, digits, or small groups of text according to a set of rules (an algorithm + a key).Cipher works at the letter or bit level. Cipher depends on an algorithm + key. Cipher: Easier to adapt with new keys, widely used in modern cryptography. Example: Caeser Cypher, Vigenère Cipher , Modern AES, RSA (work at bit/byte level) .
+A method of transforming individual letters, digits, or small groups of text according to a set of rules (an algorithm + a key).Cipher works at the letter or bit level. Cipher depends on an algorithm + key. Cipher: Easier to adapt with new keys, widely used in modern cryptography. Example: Caeser Cypher, Vigenère Cipher , Modern AES, RSA (work at bit/byte level) . So basically a cipher has a specific rule, and that rule would work for whatever things you put into that message,
 
 Process Example: Caesar Cipher shifts each letter by 3 (A → D, B → E). 
+
+Here's a picture of a Cipher Machine which we already discussed in [Ancient Cryptography](https://github.com/KraKEn-bit/Cryptography/tree/main/Ancient_Cryptography) : 
+
+[Cipher Machine - Enigma](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Enigma%20Mchine.jpeg?raw=true)
 
 ### **Codes:**
 
@@ -34,3 +38,7 @@ Code works at the word or phrase level.Code depends on a codebook. More Examples
 | **Security Weakness** | If the key is exposed, cipher is broken | If the codebook is captured, whole system is broken |
 | **Examples**         | Caesar Cipher, Vigenère Cipher, AES, RSA | “Red Eagle” = “Attack at dawn”, military/diplomatic codebooks |
 | **Modern Usage**     | Dominates modern cryptography (digital security, encryption) | Rare today, used in intelligence, military signals |
+
+
+
+So, In short: **A cipher changes the literal characters typed in based on some algorithm while a code shortens linguistic constructs based on their meaning.**
