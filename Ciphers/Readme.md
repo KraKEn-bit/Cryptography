@@ -174,3 +174,10 @@ Legend: Left = · (dot), Right = – (dash)
        in (·) Piece (–)    oceans (–)   finding (–)
                              /     \
                         endless (–)  adventures (–)
+
+
+**How to read it:**  
+- Start at the top.  
+- For each **dot (·)**, go **left**.  
+- For each **dash (–)**, go **right**.  
+- The **leaf node** you reach is the letter.  
