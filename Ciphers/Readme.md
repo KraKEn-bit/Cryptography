@@ -163,10 +163,14 @@ Where:<br>
 
 <br>
 
-              [Start]
-             /       \
-          · (A)      – (R)
-         /   \       /   \
-      ·(I)   ·(N) –(S)  –(F)
-     / \    / \   / \   / \
-  ·(O) ·(E) ·(C) ·(D) ·(L) ·(P) ·(U) ·(M)
+Legend: Left = · (dot), Right = – (dash)
+
+                      [Start]
+                     /       \
+               and (·)         Rafsan (–)
+               /     \         /       \
+           I (·)     One (·) sailed (–)  over (–)
+          /   \               /        \
+       in (·) Piece (–)    oceans (–)   finding (–)
+                             /     \
+                        endless (–)  adventures (–)
