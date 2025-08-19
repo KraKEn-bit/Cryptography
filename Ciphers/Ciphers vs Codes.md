@@ -114,6 +114,7 @@ Too fast: ··– → could be misread as U<br>
 Too slow: receiver may think two letters are separate words
 
 <br>
+<br>
 
 **Let's Learn MORSE CODE in the most Simplest way possible:**<br>
 
