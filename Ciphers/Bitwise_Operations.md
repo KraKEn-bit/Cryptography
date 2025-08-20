@@ -71,6 +71,7 @@ Everything—videos, music, programs—is ultimately just patterns of 0s and 1s 
 ----
 
 <br>
+<br>
 
 # **Encrypting Colors:**
 
