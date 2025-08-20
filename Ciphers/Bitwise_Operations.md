@@ -16,6 +16,8 @@ In any modern/computerized encryption scheme we represent our symbols using bina
 ---
 
 If you ever want to know why binary digits are used for computerization. Let me give you a brief Description on this:
+<br>
+<br>
 
 `Why Binary Digits are used in Computers?`<br>
 Ans:<br>
