@@ -117,3 +117,15 @@ Let's see how light colors combine by addition:
   4)Red + Green + Blue = White light
 
 This is called the Additive Color Model, and it works for anything that emits light (monitors, projectors, LEDs).
+
+<br>
+
+`You may think, how the numbers fromn 0-255 combines together to form a color` <br>
+Ans:
+
+No worries, I am covering up for you. The thing is **"It all comes down to binary representation and efficiency."**
+Computers store data in bytes (8 bits).<br>
+8 bits can represent numbers from:
+    00000000(binary)=0 to 111111111(binary)=255
+
+  
