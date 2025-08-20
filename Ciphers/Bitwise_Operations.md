@@ -121,11 +121,31 @@ This is called the Additive Color Model, and it works for anything that emits li
 <br>
 
 `You may think, how the numbers fromn 0-255 combines together to form a color` <br>
-Ans:
 
-No worries, I am covering up for you. The thing is **"It all comes down to binary representation and efficiency."**
+Ans:<br>
+No worries, I am covering up for you. 
+<br>
+The thing is **"It all comes down to binary representation and efficiency."**
 Computers store data in bytes (8 bits).<br>
 8 bits can represent numbers from:
     00000000(binary)=0 to 111111111(binary)=255
+    <br>
+That gives 256 possible values (0 to 255 inclusive).
 
-  
+**RGB Uses 3 Bytes**
+<br>
+Each pixel color is usually stored as 3 channels:
+
+  - Red = 0–255
+  - Green = 0–255
+  - Blue = 0–255
+
+Together, that’s 24 bits (3 × 8) per pixel.
+
+Total possible colors:
+     256 X 256 X 256 = almost 16 millions Combinations can be Made out of those 3 colors.
+<br>
+
+0–1 could be used (and often is, in graphics/math libraries) but 0–255 is chosen in files and hardware because: 1 byte is a natural storage unit. It’s efficient for memory and bandwidth.
+
+Easy mapping to binary numbers.
