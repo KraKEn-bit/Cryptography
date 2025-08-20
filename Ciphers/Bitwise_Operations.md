@@ -127,8 +127,9 @@ No worries, I am covering up for you.
 <br>
 The thing is **"It all comes down to binary representation and efficiency."**
 Computers store data in bytes (8 bits).<br>
-8 bits can represent numbers from:
-    00000000(binary)=0 to 111111111(binary)=255
+<br>
+**8 bits can represent numbers from:
+    00000000(binary)=0 to 111111111(binary)=255**
     <br>
 That gives 256 possible values (0 to 255 inclusive).
 
