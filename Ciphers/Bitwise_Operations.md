@@ -85,5 +85,8 @@ Let's start with a Leaf as our base image which is ought to be converted.
 Ans:<br>
 Well, right now you are looking at HTML colors which are defined using the RGB color model. This is an additive model based on mixing some amount of red, green and blue light.
 
-
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Color.jpg?raw=true)
+
+<br>
+Here:<br>
+We can define exactly how much RED, GREEN and BLUE using a number from 0-255. Black is all off (0,0,0) while white is all on (255,255,255). In between there are 16 million possible colors (256 * 256 * 256).
