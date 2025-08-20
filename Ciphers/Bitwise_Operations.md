@@ -97,7 +97,6 @@ We can define exactly how much RED, GREEN and BLUE using a number from 0-255. Bl
 <br>
 
 **Let's Face a Question**
-
 <br>
 <br>
 
