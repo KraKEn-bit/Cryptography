@@ -80,6 +80,8 @@ Let's start with a Leaf as our base image which is ought to be converted.
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Leaf.jpeg?raw=true)
 
 
+<br>
+
 `How do we convert a Color?`<br>
 <br>
 Ans:<br>
