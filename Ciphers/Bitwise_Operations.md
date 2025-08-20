@@ -35,6 +35,8 @@ Using just two states makes circuits simpler, faster, and less error-prone.If we
 
 Boolean algebra (logic with AND, OR, NOT) maps perfectly to binary.Complex operations (addition, storage, comparisons) can be built using combinations of binary logic gates.
 
+<br>
+<br>
 
 `How Computer Memory works with Binary?`<br>
 Ans:<br>
