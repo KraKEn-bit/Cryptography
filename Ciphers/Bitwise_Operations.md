@@ -94,9 +94,13 @@ Here:<br>
 We can define exactly how much RED, GREEN and BLUE using a number from 0-255. Black is all off (0,0,0) while white is all on (255,255,255). In between there are 16 million possible colors (256 * 256 * 256).
 
 <br>
+<br>
 
 **Let's Face a Question**
+
 <br>
+<br>
+
 `Why for color combination RED,GREEN,BLUE (RGB) is used?`<br>
 Ans:<br>
 Inside our eyes we have cone cells that detect color. There are 3 types of cones:
