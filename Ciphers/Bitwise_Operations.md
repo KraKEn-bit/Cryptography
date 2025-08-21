@@ -149,4 +149,4 @@ Total possible colors:
 
 0–1 could be used (and often is, in graphics/math libraries) but 0–255 is chosen in files and hardware because: 1 byte is a natural storage unit. It’s efficient for memory and bandwidth.
 
-Easy mapping to binary numbers.
+ Easy mapping to binary numbers.
