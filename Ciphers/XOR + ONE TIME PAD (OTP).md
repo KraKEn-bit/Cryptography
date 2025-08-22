@@ -201,7 +201,7 @@ This image contains no information about the original image. If we didn’t prov
 
 --- 
 
-**Let's face a question:**
+**Let's face some questions:**
 
 `The end of the article claims "This image contains no information about the original image." But is that right? In the last article, the one time pad was only a few dozen bits. Now this image is thousands of times longer. If the one time pad is short, and the message is long, doesn't information leak? (It seems like probably the encrypted version used a one time pad the same size as the image, but reading this article and the last one, you might not think so.)`
 
@@ -209,6 +209,7 @@ Ans:
 
  The one time pad must be the same size as the image to prevent information from being leaked. A stream of random bits is used, so we can safely say that the size of the one time pad equals the size of the message (in this case the picture is the message).
 
+<br>
 <br>
 
  `What do you mean by "This happens anytime a "RANDOM SHIFT" of __ is applied..." ? What does this have to do with anything, or what does this mean?`
@@ -226,6 +227,7 @@ Image data in random bit image data out<br>
 
 As you can see the image data out is the exact same as the image data in when the random bit is 1.
 
+<br>
 <br>
 
  `why do AND and OR bear any resemblance to the original picture? Why don't AND and OR give the same result as XOR but lighter or darker?`
