@@ -236,6 +236,7 @@ But color channels usually range from 0–255. We can scale dice results by mult
   - B = 6 × 36 = 216
 
 **Final RGB color = (36, 252, 216) (a bright teal/cyan shade).**
+<br>
 
 In real, the resulting sequence could be any possible sequence. Given some encrypted color, all we know is the original color is “equally likely to be any color”. We have no information that could improve a blind guess (1/16 million).
 
