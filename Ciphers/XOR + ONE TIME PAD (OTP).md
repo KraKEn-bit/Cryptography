@@ -86,6 +86,8 @@ This is actually all about probability in truth tables when inputs are random. L
   We take two binary inputs A and B.
   Each is random 0 or 1 with equal probability (50%).
 
+<br>
+
 So there are 4 equally likely combinations:
 
   | A | B | Probability |
@@ -95,7 +97,7 @@ So there are 4 equally likely combinations:
   | 1 | 0 | 25%         |
   | 1 | 1 | 25%         |
 
-
+<br>
 
 - **Step 2: Truth Table for AND:**
   
@@ -113,6 +115,8 @@ So there are 4 equally likely combinations:
 
 That’s why AND outputs 0 with 75% chance, 1 with 25% chance.
 
+<br>
+
 - **Step 3: Truth Table for OR**
   
   | A | B | A OR B |
@@ -128,6 +132,8 @@ That’s why AND outputs 0 with 75% chance, 1 with 25% chance.
 3 out of 4 cases give 1 → Probability = 75%
 
 That’s why OR outputs 1 with 75% chance, 0 with 25% chance.
+
+<br>
 
 - **Step 4: XOR (for comparison):**
 
