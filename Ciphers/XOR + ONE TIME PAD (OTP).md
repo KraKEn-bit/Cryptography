@@ -57,5 +57,5 @@ A plaintext: 101101 and key: 110010
   ------<br>
   101101 (Original Message)
 
-So, the message is perfectly stored. So we can say: OTP uses XOS with a random key.
+So, the message is perfectly stored. So we can say: OTP uses XOR with a random key. If done properly, OTP is an unbreakable Encryption method.
 
