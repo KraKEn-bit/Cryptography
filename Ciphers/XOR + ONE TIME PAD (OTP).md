@@ -59,3 +59,12 @@ A plaintext: 101101 and key: 110010
 
 So, the message is perfectly stored. So we can say: OTP uses XOR with a random key. If done properly, OTP is an unbreakable Encryption method.
 
+---
+
+**Let's ask ourselves:**
+
+`Why must we use XOR?`
+
+Ans:
+
+Does it really matter if we used AND, OR or XOR with the one-time pad? The answer is **YES**, and it’s extremely important to understand why. Recall from the [Bitwise Operation](https://github.com/KraKEn-bit/Cryptography/blob/main/Ciphers/Bitwise_Operations.md) Article that AND has a 75% chance of outputting 0 and a 25% chance of outputting a 1. While OR has a 25% chance of outputting 0 and 75% chance of outputting 1. While the XOR operation has a 50% chance of outputting 0 or 1.
