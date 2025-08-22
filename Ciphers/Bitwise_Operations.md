@@ -272,6 +272,7 @@ Slight rounding, but good enough for visualization.
 So,
 
 **Summary:**
+
 We use ~36 because 255 ÷ 7 ≈ 36.4, and that maps dice results (0–7) evenly into the 0–255 RGB scale. It’s basically a linear scaling so our small dice numbers can be visualized as proper colors.
 
 ---
