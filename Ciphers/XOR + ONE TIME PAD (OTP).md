@@ -164,3 +164,40 @@ Here’s a visual probability diagram for AND, OR, XOR — each square represent
 From this, you can clearly see why:
 
 AND gives 1 only when both are 1 (1 case → 25%). OR gives 0 only when both are 0 (1 case → 25%). XOR splits evenly (2 cases each → 50%).
+
+---
+
+Let’s look at a visual example to see the different scrambling effects of AND vs. OR vs. XOR  by encrypting an image. Here is a digital image of Charles Babbage:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Charles_Babbage_Original.jpg?raw=true)
+
+
+It contains thousands of tiny colored squares called pixels. Each pixel in this image can be represented as a 24 bit sequence as shown in the previous article. Let's call this our plaintext image (or message).
+First let’s see what happens when we AND each bit in the image file with a stream of random bits.
+
+
+# **AND:**
+
+Notice most of the original message shines through. This happens anytime a random shift of 1 is applied, or when the plaintext is 0:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/AND_Charles_Babbage.jpg?raw=true)
+
+
+# **OR:**
+
+Notice most of the original message shines through. This happens anytime a random shift of 0 is applied, or when the plaintext is 1:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/OR_Charles_Babbage.jpg?raw=true)
+
+
+# **XOR:**
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/XOR_Charles_Babbage.jpg?raw=true)
+
+
+Notice that the plaintext only shines through 50% of the time, which results in noise as each pixel is equally likely to be 0 or 1.
+This image contains no information about the original image. If we didn’t provide the shift sequence it would be impossible for you to reverse it back to the original image. You could try every possible sequence, but that would result in every possible image! How could you know it was Babbage? It's equally likely to be a picture of you or anything else you can think of.
+
+
+
+
