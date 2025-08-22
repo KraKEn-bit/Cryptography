@@ -126,7 +126,7 @@ This is called the Additive Color Model, and it works for anything that emits li
 
 <br>
 
-`You may think, how the numbers fromn 0-255 combines together to form a color?` 
+`You may think, how the numbers from 0-255 combines together to form a color?` 
 
 Ans:
 
