@@ -9,3 +9,11 @@ XOR (Exclusive OR) is a logical operation often used in cryptography. It outputs
 | 0 | 1 | 1     |
 | 1 | 0 | 1     |
 | 1 | 1 | 0     |
+
+
+So, from this we can say if the value of A and B are different then 1 else 0. For Encryption the property of XOR we use is:
+If C = A ⊕ B, then:
+
+  - A = C ⊕ B
+
+  - B = C ⊕ A
