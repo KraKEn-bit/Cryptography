@@ -226,4 +226,24 @@ Image data in random bit image data out<br>
 
 As you can see the image data out is the exact same as the image data in when the random bit is 1.
 
+<br>
+
+ `why do AND and OR bear any resemblance to the original picture? Why don't AND and OR give the same result as XOR but lighter or darker?`
+
+ Ans:
+
+ AND:
+- All the white pixels will be displayed correctly
+- Half of the black pixels will be displayed correctly
+
+OR:
+- All the black pixels will be displayed correctly
+- Half the white pixels will be displayed correctly
+
+XOR:
+- Half of the white pixels will be displayed correctly
+- Half of the black pixels will be displayed correctly
+
+So for the AND and OR one of the colors is being displayed correctly and the opposite color looks like noise. For XOR, both of the colors look like noise.
+
 ---
