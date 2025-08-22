@@ -216,7 +216,7 @@ Ans:
 
  Ans:
 
- In the AND demonstration, "This happens anytime a random shift of 1 is applied [...]" simply means that the original image data is unchanged when a 1 in the series of random binary digits is used to operate on the image data by means of the AND operation.
+ In the AND demonstration, **"This happens anytime a random shift of 1 is applied"** simply means that the original image data is unchanged when a 1 in the series of random binary digits is used to operate on the image data by means of the AND operation.
 
 Why? Take a look at the possibilities:
 
