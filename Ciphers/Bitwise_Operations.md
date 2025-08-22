@@ -133,6 +133,8 @@ Computers store data in bytes (8 bits).<br>
     <br>
 That gives 256 possible values (0 to 255 inclusive).
 
+<br>
+
 **RGB Uses 3 Bytes**
 <br>
 Each pixel color is usually stored as 3 channels:
