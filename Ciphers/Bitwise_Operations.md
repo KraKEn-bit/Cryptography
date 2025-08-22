@@ -159,8 +159,6 @@ Total possible colors:
 
 0–1 could be used (and often is, in graphics/math libraries) but 0–255 is chosen in files and hardware because: 1 byte is a natural storage unit. It’s efficient for memory and bandwidth.
 
- Easy mapping to binary numbers.
-
 ---
 
 **Let's see the sample green used in the Leaf in by using an Image editing tool like Photoshop:**
@@ -193,7 +191,7 @@ Say we roll two 6-sided dice:<br>
 
 **Let’s do AND, OR, XOR:**
 
-### **AND:**
+### **- AND:**
 
 0101<br>
 0011<br>
@@ -201,7 +199,7 @@ Say we roll two 6-sided dice:<br>
 0001  = 1
 
 
-### **OR:**
+### **- OR:**
 
 0101<br>
 0011<br>
@@ -209,7 +207,7 @@ Say we roll two 6-sided dice:<br>
 0111  = 7
 
 
-### **XOR:**
+### **- XOR:**
 
 0101<br>
 0011<br>
@@ -238,6 +236,8 @@ But color channels usually range from 0–255. We can scale dice results by mult
   - B = 6 × 36 = 216
 
 **Final RGB color = (36, 252, 216) (a bright teal/cyan shade).**
+
+In real, the resulting sequence could be any possible sequence. Given some encrypted color, all we know is the original color is “equally likely to be any color”. We have no information that could improve a blind guess (1/16 million).
 
 
 **Here's the Image if you ever wonder how it would look like:**
