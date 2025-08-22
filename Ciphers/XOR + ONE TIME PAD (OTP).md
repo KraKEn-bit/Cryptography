@@ -148,3 +148,19 @@ That’s why OR outputs 1 with 75% chance, 0 with 25% chance.
 2 out of 4 cases give 0 → Probability = 50%
 
 2 out of 4 cases give 1 → Probability = 50%
+
+
+To visualize this more clearly I've made a probability diagram to understand more easily. Here's the image:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/probabiliy_Diagram_AND_OR_XOR.png?raw=true)
+
+
+Here’s a visual probability diagram for AND, OR, XOR — each square represents a dice-like random input combination (A, B).
+
+  - Green = output 1
+
+  - Red = output 0
+
+From this, you can clearly see why:
+
+AND gives 1 only when both are 1 (1 case → 25%). OR gives 0 only when both are 0 (1 case → 25%). XOR splits evenly (2 cases each → 50%).
