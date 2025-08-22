@@ -163,3 +163,19 @@ Total possible colors:
 
 ---
 
+**Let's see the sample green used in the Leaf in by using an Image editing tool like Photoshop:**
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Color%20Grades.png?raw=true)
+
+
+Notice it stores it as RED=156, GREEN=181, BLUE=58. If we express these numbers in binary we get:<br>
+RED=10011100, GREEN=10110101, BLUE=00111010 <br>
+We can squeeze those together as: 100111001011010100111010
+
+<br>
+
+### **Binary representation of the 'Green' Color:**
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Leaf_Binary_Representation.jpg?raw=true)
+
+
