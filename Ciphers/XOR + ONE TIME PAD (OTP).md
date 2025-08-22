@@ -41,7 +41,7 @@ For example:
 
 A plaintext: 101101 and key: 110010
 
-- By **Encryption** we get:
+- By **Encryption** we get by XOR-ing:
 
   101101<br>
   110010<br>
@@ -50,7 +50,7 @@ A plaintext: 101101 and key: 110010
 
 <br>
 
-- By **Decription** we get:
+- By **Decription** we get by XOR-ing:
 
   011111 (Ciphertext)<br>
   110010 (Key)<br>
