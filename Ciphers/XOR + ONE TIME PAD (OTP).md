@@ -199,6 +199,9 @@ Notice that the plaintext only shines through 50% of the time, which results in 
 This image contains no information about the original image. If we didn’t provide the shift sequence it would be impossible for you to reverse it back to the original image. You could try every possible sequence, but that would result in every possible image! How could you know it was Babbage? It's equally likely to be a picture of you or anything else you can think of.
 
 
+Here's a python code to Demonstrate how it's manually done: [Image_Manipulation by AND OR XOR](https://github.com/KraKEn-bit/Cryptography/blob/main/Codes/Image_Manipulation_AND_OR_XOR.py)
+
+
 --- 
 
 **Let's face some questions:**
