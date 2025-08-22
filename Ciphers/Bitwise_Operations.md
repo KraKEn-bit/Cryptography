@@ -100,8 +100,11 @@ We can define exactly how much RED, GREEN and BLUE using a number from 0-255. Bl
 <br>
 <br>
 
-`Why for color combination RED,GREEN,BLUE (RGB) is used?`<br>
-Ans:<br>
+`Why for color combination RED,GREEN,BLUE (RGB) is used?`
+
+Ans:
+
+
 Inside our eyes we have cone cells that detect color. There are 3 types of cones:
 
   - S-cones → sensitive to blue light<br>
