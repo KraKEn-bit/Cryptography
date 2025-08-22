@@ -41,7 +41,7 @@ For example:
 
 A plaintext: 101101 and key: 110010
 
-By Encryption we get:
+- By **Encryption** we get:
 
 101101<br>
 110010<br>
@@ -49,7 +49,7 @@ By Encryption we get:
 011111   (Ciphertext)
 
 
-By Decription we get:
+- By **Decription** we get:
 
 011111 (Ciphertext)<br>
 110010 (Key)<br>
