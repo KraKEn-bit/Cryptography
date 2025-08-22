@@ -36,3 +36,25 @@ The way to do that is: <br>
   3) Encrypt using: Ciphertext = Plaintext ⊕ Key
 
   4) Decrypt using: Plaintext = Ciphertext ⊕ Key
+
+For example:
+
+A plaintext: 101101 and key: 110010
+
+By Encryption we get:
+
+101101
+110010
+------
+011111   (Ciphertext)
+
+
+By Decription we get:
+
+011111 (Ciphertext)
+110010 (Key)
+------
+101101 (Original Message)
+
+So, the message is perfectly stored. So we can say: OTP uses XOS with a random key.
+
