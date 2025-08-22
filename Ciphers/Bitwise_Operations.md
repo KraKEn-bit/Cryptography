@@ -122,9 +122,8 @@ This is called the Additive Color Model, and it works for anything that emits li
 
 `You may think, how the numbers fromn 0-255 combines together to form a color?` 
 
-<br>
-
 Ans:<br>
+
 No worries, I am covering up for you. 
 <br>
 The thing is **"It all comes down to binary representation and efficiency."**
