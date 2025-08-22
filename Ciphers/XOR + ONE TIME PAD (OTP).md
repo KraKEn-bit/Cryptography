@@ -22,7 +22,11 @@ Because applying XOR twice with the same key restores the original.
 
 # **OTP and XOR:**
 
-The One-Time Pad is a theoretically unbreakable encryption system. It works by XOR-ing the plaintext with a random key of the same length.<br>
+The One-Time Pad is a theoretically unbreakable encryption system. To recall how OTP works and how it looked like and how it contributed to Cryptography you can again look into the [Ancient Cryptography Doc where all of them are cleared for your sake](https://github.com/KraKEn-bit/Cryptography/blob/main/Ancient_Cryptography/README.md) . So Buckle up and enjoy Treasure Hunting. <br>
+
+So Back to the point: 
+
+OTP works by XOR-ing the plaintext with a random key of the same length.<br>
 The way to do that is: <br>
 
   1) Convert the message into binary.
