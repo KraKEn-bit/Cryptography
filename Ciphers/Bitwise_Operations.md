@@ -240,6 +240,12 @@ But color channels usually range from 0–255. We can scale dice results by mult
 **Final RGB color = (36, 252, 216) (a bright teal/cyan shade).**
 
 
+**Here's the Image if you ever wonder how it would look like:**
+
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/(36,%20252,%20216)_color.png?raw=true)
+
+
 ---
 
 **Let's Face a question related to this:**
