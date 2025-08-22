@@ -43,17 +43,17 @@ A plaintext: 101101 and key: 110010
 
 By Encryption we get:
 
-101101
-110010
-------
+101101<br>
+110010<br>
+------<br>
 011111   (Ciphertext)
 
 
 By Decription we get:
 
-011111 (Ciphertext)
-110010 (Key)
-------
+011111 (Ciphertext)<br>
+110010 (Key)<br>
+------<br>
 101101 (Original Message)
 
 So, the message is perfectly stored. So we can say: OTP uses XOS with a random key.
