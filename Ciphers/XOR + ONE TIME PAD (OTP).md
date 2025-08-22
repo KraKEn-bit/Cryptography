@@ -48,6 +48,7 @@ A plaintext: 101101 and key: 110010
   ------<br>
   011111   (Ciphertext)
 
+<br>
 
 - By **Decription** we get:
 
