@@ -209,6 +209,7 @@ Ans:
 
  The one time pad must be the same size as the image to prevent information from being leaked. A stream of random bits is used, so we can safely say that the size of the one time pad equals the size of the message (in this case the picture is the message).
 
+<br>
 
  `What do you mean by "This happens anytime a "RANDOM SHIFT" of __ is applied..." ? What does this have to do with anything, or what does this mean?`
 
@@ -224,3 +225,5 @@ Image data in random bit image data out<br>
 1 1 1<br>
 
 As you can see the image data out is the exact same as the image data in when the random bit is 1.
+
+---
