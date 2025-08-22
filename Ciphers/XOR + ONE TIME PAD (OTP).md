@@ -248,4 +248,36 @@ XOR:
 
 So for the AND and OR one of the colors is being displayed correctly and the opposite color looks like noise. For XOR, both of the colors look like noise.
 
+<br>
+<br>
+
+`How was the image encrypted? was that Pixel over pixel or anything else?`
+
+Ans:
+
+Say that we want to encrypt this much much much smaller image with only 9 bits and we want to encrypt it using AND:
+0 1 0
+0 1 0
+0 1 0
+
+then let's generate a random sequence of 9 bits:
+
+0 0 1
+1 1 1
+1 1 0
+
+then we do it pixel by pixel:
+0 AND 0 = 0
+1 AND 0 = 0
+0 AND 1 = 0
+And so on...
+
+And we get:
+0 0 0
+0 1 0
+0 1 0
+
+The same works for more 0's and 1's.
+Note: This is only for Black and White images.
+For colored images you actually encrypt the colors also because we can represent color with 0's and 1's too.
 ---
