@@ -17,3 +17,18 @@ If C = A ⊕ B, then:
   - A = C ⊕ B
 
   - B = C ⊕ A
+
+Because applying XOR twice with the same key restores the original.
+
+# **OTP and XOR:**
+
+The One-Time Pad is a theoretically unbreakable encryption system. It works by XOR-ing the plaintext with a random key of the same length.<br>
+The way to do that is: <br>
+
+  1) Convert the message into binary.
+
+  2) Generate a truly random key (same length as message).
+
+  3) Encrypt using: Ciphertext = Plaintext ⊕ Key
+
+  4) Decrypt using: Plaintext = Ciphertext ⊕ Key
