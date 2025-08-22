@@ -68,3 +68,69 @@ So, the message is perfectly stored. So we can say: OTP uses XOR with a random k
 Ans:
 
 Does it really matter if we used AND, OR or XOR with the one-time pad? The answer is **YES**, and it’s extremely important to understand why. Recall from the [Bitwise Operation](https://github.com/KraKEn-bit/Cryptography/blob/main/Ciphers/Bitwise_Operations.md) Article that AND has a 75% chance of outputting 0 and a 25% chance of outputting a 1. While OR has a 25% chance of outputting 0 and 75% chance of outputting 1. While the XOR operation has a 50% chance of outputting 0 or 1.
+
+
+Now you may ask:
+
+`AND has a 75% chance of outputting 0 and a 25% chance of outputting a 1. While OR has a 25% chance of outputting 0 and 75% chance of outputting 1. How is this predicted?`
+
+Ans:
+
+The answer is simple. If we go through the [Bitwise Operation](https://github.com/KraKEnbit/Cryptography/blob/main/Ciphers/Bitwise_Operations.md) Article thoroughly and try to find the answer by yourselve you'll understand the concept more crystal clearly.
+
+But Tension not. I am here to remove your hesitance and problems. :
+This is actually all about probability in truth tables when inputs are random. Let’s break it down clearly:
+
+- Step 1: Assume Random Inputs
+
+  We take two binary inputs A and B.
+  Each is random 0 or 1 with equal probability (50%).
+
+So there are 4 equally likely combinations:
+
+  A	B	Probability
+  0	0	25%
+  0	1	25%
+  1	0	25%
+  1	1	25%
+
+
+- Step 2: Truth Table for AND:
+  
+  A	B	A AND B
+  0	0	0
+  0	1	0
+  1	0	0
+  1	1	1
+
+3 out of 4 cases give 0 → Probability = 75%
+
+1 out of 4 cases gives 1 → Probability = 25%
+
+That’s why AND outputs 0 with 75% chance, 1 with 25% chance.
+
+- Step 3: Truth Table for OR
+- 
+  A	B	A OR B
+  0	0	0
+  0	1	1
+  1	0	1
+  1	1	1
+
+1 out of 4 cases gives 0 → Probability = 25%
+
+3 out of 4 cases give 1 → Probability = 75%
+
+That’s why OR outputs 1 with 75% chance, 0 with 25% chance.
+
+- Step 4: XOR (for comparison):
+
+  A	B	A XOR B
+  0	0	0
+  0	1	1
+  1	0	1
+  1	1	0
+
+2 out of 4 cases give 0 → Probability = 50%
+
+2 out of 4 cases give 1 → Probability = 50%
