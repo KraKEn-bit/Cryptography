@@ -199,5 +199,28 @@ Notice that the plaintext only shines through 50% of the time, which results in 
 This image contains no information about the original image. If we didn’t provide the shift sequence it would be impossible for you to reverse it back to the original image. You could try every possible sequence, but that would result in every possible image! How could you know it was Babbage? It's equally likely to be a picture of you or anything else you can think of.
 
 
+--- 
+
+**Let's face a question:**
+
+`The end of the article claims "This image contains no information about the original image." But is that right? In the last article, the one time pad was only a few dozen bits. Now this image is thousands of times longer. If the one time pad is short, and the message is long, doesn't information leak? (It seems like probably the encrypted version used a one time pad the same size as the image, but reading this article and the last one, you might not think so.)`
+
+Ans:
+
+ The one time pad must be the same size as the image to prevent information from being leaked. A stream of random bits is used, so we can safely say that the size of the one time pad equals the size of the message (in this case the picture is the message).
 
 
+ `What do you mean by "This happens anytime a "RANDOM SHIFT" of __ is applied..." ? What does this have to do with anything, or what does this mean?`
+
+ Ans:
+
+ In the AND demonstration, "This happens anytime a random shift of 1 is applied [...]" simply means that the original image data is unchanged when a 1 in the series of random binary digits is used to operate on the image data by means of the AND operation.
+
+Why? Take a look at the possibilities:
+
+Image data in random bit image data out<br>
+
+0 1 0<br>
+1 1 1<br>
+
+As you can see the image data out is the exact same as the image data in when the random bit is 1.
