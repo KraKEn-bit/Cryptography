@@ -179,3 +179,92 @@ We can squeeze those together as: 100111001011010100111010
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Leaf_Binary_Representation.jpg?raw=true)
 
 
+### **Applications of Random Shifts**
+
+Now let’s say you generate a shift sequence using Dice Rolls converted into binary as:
+
+Say we roll two 6-sided dice:<br>
+
+  - Dice A = 5 (0101 in binary, 4 bits)
+
+  - Dice B = 3 (0011 in binary, 4 bits)
+
+
+**Let’s do AND, OR, XOR:**
+
+### **AND:**
+
+0101<br>
+0011<br>
+----<br>
+0001  = 1
+
+
+### **OR:**
+
+0101<br>
+0011<br>
+----<br>
+0111  = 7
+
+
+### **XOR:**
+
+0101<br>
+0011<br>
+----<br>
+0110  = 6
+
+
+**Now TO see the RGB colors:**
+
+Let’s assign each result to a color channel:
+
+  - AND → Red channel (R)
+
+  - OR → Green channel (G)
+
+  - XOR → Blue channel (B)
+
+So we get RGB = (1, 7, 6).
+
+But color channels usually range from 0–255. We can scale dice results by multiplying by ~36 (≈ 255 ÷ 7, since max dice OR is 7).
+
+  - R = 1 × 36 = 36
+
+  - G = 7 × 36 = 252
+
+  - B = 6 × 36 = 216
+
+**Final RGB color = (36, 252, 216) (a bright teal/cyan shade).**
+
+
+---
+
+**Let's Face a question related to this:**
+
+`We can scale dice results by multiplying by ~36 (≈ 255 ÷ 7, since max dice OR is 7). why we used 36 and why does it matter?`
+
+Ans:
+
+Dice rolls (when combined with AND/OR/XOR) only produce results in the range 0 → 7 (since a die max is 6 = 0110, OR two dice can give 7 = 0111). But colors in RGB use 0 → 255 (because each channel is stored in 8 bits).<br>
+So, if we want to "stretch" the dice result range [0–7] to fill the RGB range [0-255], we need a **Scaling Factor**.
+
+
+So, Actually The math behind this is:<br>
+
+  **Scaling Factor=Target Max/Source Max**
+                  =255/7 ≈ 36
+
+That’s where the ≈ 36 comes from.<br>
+Multiply dice result (0–7) × 36 → new value in 0–252 (close to 255).
+
+Slight rounding, but good enough for visualization.
+
+
+So,
+
+**Summary:**
+We use ~36 because 255 ÷ 7 ≈ 36.4, and that maps dice results (0–7) evenly into the 0–255 RGB scale. It’s basically a linear scaling so our small dice numbers can be visualized as proper colors.
+
+---
