@@ -178,8 +178,9 @@ We can squeeze those together as: 100111001011010100111010
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Leaf_Binary_Representation.jpg?raw=true)
 
+<br>
 
-### **Applications of Random Shifts**
+## **Applications of Random Shifts**
 
 Now let’s say you generate a shift sequence using Dice Rolls converted into binary as:
 
