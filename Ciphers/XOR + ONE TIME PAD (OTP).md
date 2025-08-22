@@ -81,30 +81,30 @@ The answer is simple. If we go through the [Bitwise Operation](https://github.co
 But Tension not. I am here to remove your hesitance and problems. :
 This is actually all about probability in truth tables when inputs are random. Let’s break it down clearly:
 
-- Step 1: Assume Random Inputs
+- **Step 1: Assume Random Inputs**
 
   We take two binary inputs A and B.
   Each is random 0 or 1 with equal probability (50%).
 
 So there are 4 equally likely combinations:
 
-| A | B | Probability |
-| - | - | ----------- |
-| 0 | 0 | 25%         |
-| 0 | 1 | 25%         |
-| 1 | 0 | 25%         |
-| 1 | 1 | 25%         |
+  | A | B | Probability |
+  | - | - | ----------- |
+  | 0 | 0 | 25%         |
+  | 0 | 1 | 25%         |
+  | 1 | 0 | 25%         |
+  | 1 | 1 | 25%         |
 
 
 
-- Step 2: Truth Table for AND:
+- **Step 2: Truth Table for AND:**
   
-| A | B | A AND B |
-| - | - | ------- |
-| 0 | 0 | 0       |
-| 0 | 1 | 0       |
-| 1 | 0 | 0       |
-| 1 | 1 | 1       |
+  | A | B | A AND B |
+  | - | - | ------- |
+  | 0 | 0 | 0       |
+  | 0 | 1 | 0       |
+  | 1 | 0 | 0       |
+  | 1 | 1 | 1       |
 
 
 3 out of 4 cases give 0 → Probability = 75%
@@ -113,14 +113,14 @@ So there are 4 equally likely combinations:
 
 That’s why AND outputs 0 with 75% chance, 1 with 25% chance.
 
-- Step 3: Truth Table for OR
+- **Step 3: Truth Table for OR**
   
-| A | B | A OR B |
-| - | - | ------ |
-| 0 | 0 | 0      |
-| 0 | 1 | 1      |
-| 1 | 0 | 1      |
-| 1 | 1 | 1      |
+  | A | B | A OR B |
+  | - | - | ------ |
+  | 0 | 0 | 0      |
+  | 0 | 1 | 1      |
+  | 1 | 0 | 1      |
+  | 1 | 1 | 1      |
 
 
 1 out of 4 cases gives 0 → Probability = 25%
@@ -129,14 +129,14 @@ That’s why AND outputs 0 with 75% chance, 1 with 25% chance.
 
 That’s why OR outputs 1 with 75% chance, 0 with 25% chance.
 
-- Step 4: XOR (for comparison):
+- **Step 4: XOR (for comparison):**
 
-| A | B | A XOR B |
-| - | - | ------- |
-| 0 | 0 | 0       |
-| 0 | 1 | 1       |
-| 1 | 0 | 1       |
-| 1 | 1 | 0       |
+  | A | B | A XOR B |
+  | - | - | ------- |
+  | 0 | 0 | 0       |
+  | 0 | 1 | 1       |
+  | 1 | 0 | 1       |
+  | 1 | 1 | 0       |
 
 
 2 out of 4 cases give 0 → Probability = 50%
