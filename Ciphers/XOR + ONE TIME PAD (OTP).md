@@ -76,7 +76,7 @@ Now you may ask:
 
 Ans:
 
-The answer is simple. If we go through the [Bitwise Operation](https://github.com/KraKEnbit/Cryptography/blob/main/Ciphers/Bitwise_Operations.md) Article thoroughly and try to find the answer by yourselve you'll understand the concept more crystal clearly.
+The answer is simple. If you go through the [Bitwise Operation](https://github.com/KraKEnbit/Cryptography/blob/main/Ciphers/Bitwise_Operations.md) Article thoroughly and try to find the answer by yourselve you'll understand the concept more crystal clearly.
 
 But Tension not. I am here to remove your hesitance and problems. :
 This is actually all about probability in truth tables when inputs are random. Let’s break it down clearly:
