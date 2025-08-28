@@ -85,6 +85,9 @@ At first they may seem to dance back and forth. There's no obvious pattern here.
 
 
 
+But there's no obvious pattern here.
+
+
 **Let's use modern technique called "ULAM SPIRAL" :**
 
 Here's an image of an **ULAM SPIRAL**:
