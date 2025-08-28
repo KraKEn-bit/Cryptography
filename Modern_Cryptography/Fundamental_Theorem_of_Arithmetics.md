@@ -107,11 +107,11 @@ Invented by Stanislaw Ulam in 1963 (while doodling at a boring math talk).
 
 You write positive integers in a square spiral pattern:
 
-21 22 23 24 25
-20 7 8 9 10
-19 6 1 2 11
-18 5 4 3 12
-17 16 15 14 13
+21 22 23 24 25<br>
+20 7 8 9 10<br>
+19 6 1 2 11<br>
+18 5 4 3 12<br>
+17 16 15 14 13<br>
 
 
 Then you circle/mark the primes: 2, 3, 5, 7, 11, 13, 17, 19, 23...
