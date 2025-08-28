@@ -33,4 +33,37 @@ Ans:
     SSLInsights
     Portnox
 
-  - Hybrid Systems: Because asymmetric cryptography is computationally heavier, it’s typically used to securely exchange a symmetric key,     which is then used for faster bulk data encryption 
+  - Hybrid Systems: Because asymmetric cryptography is computationally heavier, it’s typically used to securely exchange a symmetric key,     which is then used for faster bulk data encryption
+
+---
+
+## **APLICATIONS:**
+
+  - web Security (HTTPS/TLS): Establishes secure connections where the website shares its public key via SSL/TLS certificates; a session       key is created and encrypted using public key encryption 
+
+  - Email Encryption: Tools like PGP use public key systems to protect privacy and provide identity verification 
+
+  - Cryptocurrencies: Public keys act as wallet addresses, and private keys authorize transactions 
+
+  - Digital Signatures & Authentication: Validates the identity of senders and ensures message integrity 
+
+  - Key Distribution & VPNs: Protocols like Diffie-Hellman facilitate secure key exchange over untrusted networks 
+
+---
+
+
+## **COMMON ALGORITHMS IT USES:**
+
+Ans:
+
+  - RSA: Based on the tough problem of factoring large integers. Widely used in signing and key exchange 
+
+  - Elliptic Curve Cryptography (ECC): Offers similar security to RSA but with much smaller keys—efficient and widely adopted 
+    Wikipedia
+
+  - Post-Quantum Cryptography: New algorithms are being developed to withstand powerful quantum computing attacks, as current schemes like     RSA and ECC could become vulnerable 
+
+
+[Here's an article on RSA AND ECC algorithm to look into](https://en.wikipedia.org/wiki/RSA_cryptosystem?utm_source=chatgpt.com)
+
+
