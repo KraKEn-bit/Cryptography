@@ -50,7 +50,7 @@ N is not divisible by any of the primes in your list . So either N itself is pri
 Therefore, primes must be infinite.
 
 
-### **How big can Prime numbers get?** <br>
+### **2. How big can Prime numbers get?** <br>
 Ans:<br>
 
 Primes get arbitrarily large. There’s no “largest prime.” However, the primes become less frequent as numbers get bigger. The Prime Number Theorem says that the number of primes less than 𝑛 . 
