@@ -11,6 +11,8 @@ Now, **NOTICE:**
 
 **If we can break a number into more than 2 equal parts then they are called composite numbers.** 
 
+--- 
+
 
 Now,
 
@@ -28,6 +30,8 @@ The only “equal pieces” possible are:
 That means: 1 group of  29
 
 Nothing else works.
+
+---
 
 
 Now a quention may arise:<br>
