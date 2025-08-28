@@ -38,6 +38,8 @@ Now a quention may arise:<br>
 `How many prime numbers are there and how big can they get?` <br>
 Ans: <br>
 
+<br> 
+
 ### **1. How many prime numbers are there?**
 
 
@@ -53,6 +55,7 @@ Now,
 N is not divisible by any of the primes in your list . So either N itself is prime, or it has prime factors not in your list → contradiction.<br>
 Therefore, primes must be infinite.
 
+<br>
 
 ### **2. How big can Prime numbers get?** <br>
 Ans:<br>
