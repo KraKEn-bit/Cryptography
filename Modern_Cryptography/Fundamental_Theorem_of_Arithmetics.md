@@ -34,7 +34,7 @@ Now a quention may arise:<br>
 `How many prime numbers are there and how big can they get?` <br>
 Ans: <br>
 
-**1. How many prime numbers are there?**
+### **1. How many prime numbers are there?**
 
 
 There are infinitely many prime numbers.
@@ -50,7 +50,7 @@ N is not divisible by any of the primes in your list . So either N itself is pri
 Therefore, primes must be infinite.
 
 
-**How big can Prime numbers get?** <br>
+### **How big can Prime numbers get?** <br>
 Ans:<br>
 
 Primes get arbitrarily large. There’s no “largest prime.” However, the primes become less frequent as numbers get bigger. The Prime Number Theorem says that the number of primes less than 𝑛 . 
