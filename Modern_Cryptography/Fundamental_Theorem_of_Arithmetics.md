@@ -1,6 +1,6 @@
 `In prehistoric, How did we track of time  without a clock? `<br>
 Ans:<br>
-In the perspective of Prehistoric Timeline , actually all clocks are based on repeatative patterns that divide the whole time in several equal segments. To find these patterns we look up to the sky to get a clearer look. **The Sun rising and falling each day** can be a crystal example.  <br>
+(In the perspective of Prehistoric Timeline) Actually all clocks are based on repeatative patterns that divide the whole time in several equal segments. To find these patterns we look up to the sky to get a clearer look. **The Sun rising and falling each day** can be a crystal example.  <br>
 however to keep track of longer period of times we looked for longer cycles. **Looking into the Moon** was one of the perfect examples.<br> 
 It seemed to gradually grow and shrink over many days. When we count the days for a Full Moon , we arrive at the number 29 that is the origin of the month. <bn>
 
