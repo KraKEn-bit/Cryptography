@@ -94,3 +94,53 @@ Here's an image of an **ULAM SPIRAL**:
 
 ![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Ulam%20Spiral;.png?raw=true)
 
+
+`What's a ULAM SPIRAL?`
+
+Ans:
+
+Invented by Stanislaw Ulam in 1963 (while doodling at a boring math talk).
+
+You write positive integers in a square spiral pattern:
+
+ 21  22  23  24  25
+ 20   7   8   9  10
+ 19   6   1   2  11
+ 18   5   4   3  12
+ 17  16  15  14  13
+
+
+Then you circle/mark the primes: 2, 3, 5, 7, 11, 13, 17, 19, 23...
+
+So here we colored all the prime numbers blue. Finally we zoom out to see million of numbers. Something like this:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Ulam%20Spiral%20Output.png?raw=true)
+
+This is the pattern of Primes that goes on and on forever.
+
+In 300 BC a philosopher known as Euclid of ALexendria understood that **All Numbers could be split into 2 distinct Categories.**
+
+He bagan to realize that any number can be divided over and over until you reach a small group of smallest equal numbers. 
+**AND BY DEFINITION THIS SMALLEST NUMBERS ARE ALWAYS PRIME NUMBERS** .
+
+So, All numbers are built with smaller primes. 
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Numbers%20into%20prime.png?raw=true)
+
+
+This is the root of his discobery known as the **FUNDAMENTAL THEOREM OF ARITHMATICS** 
+
+Take any numbers for example: (30)
+
+And divides them equally into prime numbers like:
+
+30=2+2+2+2+2+2+2+2+2+2+2+2+2+2+2<br>
+30=3+3+3+3+3+3+3+3+3+3<br>
+30=5+5+5+5+5+5
+
+
+**This we known as FACTORIZATION**
+
+30= 2 X 3 X 5
+
+This will give us the PRIME FACTORS like a cobination of KEYS. Now try to see them as New locks and its unique keys to unlock that is known as the prime Factorization. 
