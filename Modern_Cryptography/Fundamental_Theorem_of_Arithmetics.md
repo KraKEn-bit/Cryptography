@@ -73,3 +73,21 @@ For example:<br>
  2 ^77,232,917 -1 
  
  almost 23 millions!!!
+
+
+Now, Let's talk about another method: <br>
+
+To segmentize 29 into equal parts we may think like let's seperate the segmentation into 2 parts: **Prime** and **Composite** numbers.
+
+At first they may seem to dance back and forth. There's no obvious pattern here. Here's an image to demonstrate this:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Seperation%20of%20prime%20and%20composites.png?raw=true)
+
+
+
+**Let's use modern technique called "ULAM SPIRAL" :**
+
+Here's an image of an **ULAM SPIRAL**:
+
+![image alt](https://github.com/KraKEn-bit/Cryptography/blob/main/Images/Ulam%20Spiral;.png?raw=true)
+
