@@ -10,3 +10,21 @@ Now, **NOTICE:**
 29 is a prime number. we can't break it into more than 2 parts as it obeys the rules of **"PRIME NUMBERS** . <br>
 
 If we can break a number into more than 2 equal parts then they are called composite numbers. 
+
+
+Now,
+
+`To break 29 into equal pieces is to break it back down into single units. What does it mean actually?`<br>
+Ans:
+It means trying to divide it into groups of the same size. Since 29 is prime, you can’t do that with whole numbers except in the trivial ways.<br>
+A prime number is one that cannot be broken into equal whole-number pieces (other than the trivial cases of 1 and itself).<br>
+If you try, you’ll always get fractions.
+
+So for  29: <br>
+The only “equal pieces” possible are:
+
+29 ones → 1+1+1+...+1 (29 times)
+
+That means: 1 group of  29
+
+Nothing else works.
